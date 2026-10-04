@@ -1,0 +1,3642 @@
+[00:19:30.868] SYSTEM On-device agent started
+[00:19:30.932] LOG    [+] Universal Frida native agent
+[00:19:30.932] LOG    [+] PID: 10594
+[00:19:30.932] LOG    [+] Arch: arm64
+[00:19:30.932] LOG    [+] Platform: linux
+[00:19:30.933] LOG    
+[00:19:30.933] LOG    ========================================
+[00:19:30.933] LOG    [MODULE]
+[00:19:30.933] LOG    name : app_process64
+[00:19:30.933] LOG    base : 0x62ab992000
+[00:19:30.933] LOG    size : 20480
+[00:19:30.934] LOG    path : /system/bin/app_process64
+[00:19:30.934] LOG    ========================================
+[00:19:30.934] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.934] LOG    
+[00:19:30.934] LOG    ========================================
+[00:19:30.934] LOG    [MODULE]
+[00:19:30.934] LOG    name : linker64
+[00:19:30.934] LOG    base : 0x7369797000
+[00:19:30.934] LOG    size : 1293421
+[00:19:30.934] LOG    path : /apex/com.android.runtime/bin/linker64
+[00:19:30.934] LOG    ========================================
+[00:19:30.934] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.934] LOG    
+[00:19:30.934] LOG    ========================================
+[00:19:30.934] LOG    [MODULE]
+[00:19:30.934] LOG    name : libandroid_runtime.so
+[00:19:30.934] LOG    base : 0x7358e9b000
+[00:19:30.934] LOG    size : 2326528
+[00:19:30.935] LOG    path : /system/lib64/libandroid_runtime.so
+[00:19:30.935] LOG    ========================================
+[00:19:30.935] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.935] LOG    
+[00:19:30.935] LOG    ========================================
+[00:19:30.935] LOG    [MODULE]
+[00:19:30.935] LOG    name : libbase.so
+[00:19:30.935] LOG    base : 0x7364dc0000
+[00:19:30.935] LOG    size : 262144
+[00:19:30.935] LOG    path : /system/lib64/libbase.so
+[00:19:30.935] LOG    ========================================
+[00:19:30.935] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.935] LOG    
+[00:19:30.935] LOG    ========================================
+[00:19:30.935] LOG    [MODULE]
+[00:19:30.935] LOG    name : libbinder.so
+[00:19:30.935] LOG    base : 0x7347aba000
+[00:19:30.935] LOG    size : 802816
+[00:19:30.935] LOG    path : /system/lib64/libbinder.so
+[00:19:30.935] LOG    ========================================
+[00:19:30.935] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.936] LOG    
+[00:19:30.936] LOG    ========================================
+[00:19:30.936] LOG    [MODULE]
+[00:19:30.936] LOG    name : libcutils.so
+[00:19:30.936] LOG    base : 0x734c910000
+[00:19:30.936] LOG    size : 172032
+[00:19:30.936] LOG    path : /system/lib64/libcutils.so
+[00:19:30.936] LOG    ========================================
+[00:19:30.936] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.936] LOG    
+[00:19:30.936] LOG    ========================================
+[00:19:30.936] LOG    [MODULE]
+[00:19:30.936] LOG    name : libhidlbase.so
+[00:19:30.936] LOG    base : 0x734bf06000
+[00:19:30.936] LOG    size : 684032
+[00:19:30.936] LOG    path : /system/lib64/libhidlbase.so
+[00:19:30.936] LOG    ========================================
+[00:19:30.936] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.937] LOG    
+[00:19:30.937] LOG    ========================================
+[00:19:30.937] LOG    [MODULE]
+[00:19:30.937] LOG    name : liblog.so
+[00:19:30.937] LOG    base : 0x7341ea8000
+[00:19:30.937] LOG    size : 65536
+[00:19:30.937] LOG    path : /system/lib64/liblog.so
+[00:19:30.937] LOG    ========================================
+[00:19:30.938] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.938] LOG    
+[00:19:30.938] LOG    ========================================
+[00:19:30.938] LOG    [MODULE]
+[00:19:30.938] LOG    name : libnativeloader.so
+[00:19:30.938] LOG    base : 0x7367854000
+[00:19:30.938] LOG    size : 167936
+[00:19:30.938] LOG    path : /apex/com.android.art/lib64/libnativeloader.so
+[00:19:30.938] LOG    ========================================
+[00:19:30.938] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.938] LOG    
+[00:19:30.938] LOG    ========================================
+[00:19:30.938] LOG    [MODULE]
+[00:19:30.938] LOG    name : libsigchain.so
+[00:19:30.938] LOG    base : 0x734c966000
+[00:19:30.938] LOG    size : 73728
+[00:19:30.938] LOG    path : /apex/com.android.art/lib64/libsigchain.so
+[00:19:30.938] LOG    ========================================
+[00:19:30.938] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.938] LOG    
+[00:19:30.938] LOG    ========================================
+[00:19:30.939] LOG    [MODULE]
+[00:19:30.939] LOG    name : libutils.so
+[00:19:30.939] LOG    base : 0x7341194000
+[00:19:30.939] LOG    size : 122880
+[00:19:30.939] LOG    path : /system/lib64/libutils.so
+[00:19:30.939] LOG    ========================================
+[00:19:30.939] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.939] LOG    
+[00:19:30.939] LOG    ========================================
+[00:19:30.939] LOG    [MODULE]
+[00:19:30.939] LOG    name : libwilhelm.so
+[00:19:30.939] LOG    base : 0x7340e27000
+[00:19:30.939] LOG    size : 266240
+[00:19:30.939] LOG    path : /system/lib64/libwilhelm.so
+[00:19:30.939] LOG    ========================================
+[00:19:30.939] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.939] LOG    
+[00:19:30.939] LOG    ========================================
+[00:19:30.939] LOG    [MODULE]
+[00:19:30.939] LOG    name : libc++.so
+[00:19:30.940] LOG    base : 0x7360740000
+[00:19:30.940] LOG    size : 729088
+[00:19:30.940] LOG    path : /system/lib64/libc++.so
+[00:19:30.940] LOG    ========================================
+[00:19:30.940] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.940] LOG    
+[00:19:30.940] LOG    ========================================
+[00:19:30.940] LOG    [MODULE]
+[00:19:30.940] LOG    name : libc.so
+[00:19:30.940] LOG    base : 0x733c4c8000
+[00:19:30.940] LOG    size : 1085440
+[00:19:30.940] LOG    path : /apex/com.android.runtime/lib64/bionic/libc.so
+[00:19:30.940] LOG    ========================================
+[00:19:30.940] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.940] LOG    
+[00:19:30.940] LOG    ========================================
+[00:19:30.940] LOG    [MODULE]
+[00:19:30.940] LOG    name : libm.so
+[00:19:30.941] LOG    base : 0x7364bc4000
+[00:19:30.941] LOG    size : 237568
+[00:19:30.941] LOG    path : /apex/com.android.runtime/lib64/bionic/libm.so
+[00:19:30.941] LOG    ========================================
+[00:19:30.941] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.941] LOG    
+[00:19:30.941] LOG    ========================================
+[00:19:30.941] LOG    [MODULE]
+[00:19:30.941] LOG    name : libdl.so
+[00:19:30.941] LOG    base : 0x7364cb8000
+[00:19:30.941] LOG    size : 20480
+[00:19:30.941] LOG    path : /apex/com.android.runtime/lib64/bionic/libdl.so
+[00:19:30.941] LOG    ========================================
+[00:19:30.941] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.941] LOG    
+[00:19:30.941] LOG    ========================================
+[00:19:30.941] LOG    [MODULE]
+[00:19:30.942] LOG    name : libharfbuzz_ng.so
+[00:19:30.942] LOG    base : 0x7360a0c000
+[00:19:30.942] LOG    size : 1384448
+[00:19:30.942] LOG    path : /system/lib64/libharfbuzz_ng.so
+[00:19:30.942] LOG    ========================================
+[00:19:30.942] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.942] LOG    
+[00:19:30.942] LOG    ========================================
+[00:19:30.942] LOG    [MODULE]
+[00:19:30.942] LOG    name : libminikin.so
+[00:19:30.942] LOG    base : 0x734c006000
+[00:19:30.942] LOG    size : 233472
+[00:19:30.942] LOG    path : /system/lib64/libminikin.so
+[00:19:30.942] LOG    ========================================
+[00:19:30.943] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.943] LOG    
+[00:19:30.943] LOG    ========================================
+[00:19:30.943] LOG    [MODULE]
+[00:19:30.943] LOG    name : libz.so
+[00:19:30.943] LOG    base : 0x7343603000
+[00:19:30.943] LOG    size : 118784
+[00:19:30.943] LOG    path : /system/lib64/libz.so
+[00:19:30.943] LOG    ========================================
+[00:19:30.943] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.943] LOG    
+[00:19:30.943] LOG    ========================================
+[00:19:30.943] LOG    [MODULE]
+[00:19:30.944] LOG    name : android.media.audio.common.types-V1-cpp.so
+[00:19:30.944] LOG    base : 0x734c8b0000
+[00:19:30.944] LOG    size : 61440
+[00:19:30.944] LOG    path : /system/lib64/android.media.audio.common.types-V1-cpp.so
+[00:19:30.944] LOG    ========================================
+[00:19:30.944] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.944] LOG    
+[00:19:30.944] LOG    ========================================
+[00:19:30.944] LOG    [MODULE]
+[00:19:30.944] LOG    name : audioclient-types-aidl-cpp.so
+[00:19:30.944] LOG    base : 0x7341f1e000
+[00:19:30.944] LOG    size : 53248
+[00:19:30.944] LOG    path : /system/lib64/audioclient-types-aidl-cpp.so
+[00:19:30.944] LOG    ========================================
+[00:19:30.944] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.944] LOG    
+[00:19:30.945] LOG    ========================================
+[00:19:30.945] LOG    [MODULE]
+[00:19:30.945] LOG    name : audioflinger-aidl-cpp.so
+[00:19:30.945] LOG    base : 0x734c754000
+[00:19:30.945] LOG    size : 278528
+[00:19:30.945] LOG    path : /system/lib64/audioflinger-aidl-cpp.so
+[00:19:30.945] LOG    ========================================
+[00:19:30.945] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.945] LOG    
+[00:19:30.945] LOG    ========================================
+[00:19:30.945] LOG    [MODULE]
+[00:19:30.945] LOG    name : audiopolicy-types-aidl-cpp.so
+[00:19:30.945] LOG    base : 0x73436ad000
+[00:19:30.945] LOG    size : 36864
+[00:19:30.945] LOG    path : /system/lib64/audiopolicy-types-aidl-cpp.so
+[00:19:30.945] LOG    ========================================
+[00:19:30.945] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.945] LOG    
+[00:19:30.946] LOG    ========================================
+[00:19:30.946] LOG    [MODULE]
+[00:19:30.946] LOG    name : spatializer-aidl-cpp.so
+[00:19:30.946] LOG    base : 0x734f3c8000
+[00:19:30.946] LOG    size : 98304
+[00:19:30.946] LOG    path : /system/lib64/spatializer-aidl-cpp.so
+[00:19:30.946] LOG    ========================================
+[00:19:30.946] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.946] LOG    
+[00:19:30.946] LOG    ========================================
+[00:19:30.946] LOG    [MODULE]
+[00:19:30.946] LOG    name : av-types-aidl-cpp.so
+[00:19:30.946] LOG    base : 0x7346fd2000
+[00:19:30.947] LOG    size : 20480
+[00:19:30.947] LOG    path : /system/lib64/av-types-aidl-cpp.so
+[00:19:30.947] LOG    ========================================
+[00:19:30.947] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.947] LOG    
+[00:19:30.947] LOG    ========================================
+[00:19:30.947] LOG    [MODULE]
+[00:19:30.947] LOG    name : android.hardware.camera.device@3.2.so
+[00:19:30.947] LOG    base : 0x7358b04000
+[00:19:30.947] LOG    size : 196608
+[00:19:30.947] LOG    path : /system/lib64/android.hardware.camera.device@3.2.so
+[00:19:30.947] LOG    ========================================
+[00:19:30.947] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.947] LOG    
+[00:19:30.948] LOG    ========================================
+[00:19:30.948] LOG    [MODULE]
+[00:19:30.948] LOG    name : libandroid_net.so
+[00:19:30.948] LOG    base : 0x734c703000
+[00:19:30.948] LOG    size : 12288
+[00:19:30.948] LOG    path : /system/lib64/libandroid_net.so
+[00:19:30.948] LOG    ========================================
+[00:19:30.948] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.948] LOG    
+[00:19:30.948] LOG    ========================================
+[00:19:30.948] LOG    [MODULE]
+[00:19:30.948] LOG    name : libandroidicu.so
+[00:19:30.948] LOG    base : 0x7367915000
+[00:19:30.948] LOG    size : 28672
+[00:19:30.948] LOG    path : /apex/com.android.i18n/lib64/libandroidicu.so
+[00:19:30.948] LOG    ========================================
+[00:19:30.949] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.949] LOG    
+[00:19:30.949] LOG    ========================================
+[00:19:30.949] LOG    [MODULE]
+[00:19:30.949] LOG    name : libbattery.so
+[00:19:30.949] LOG    base : 0x734cddc000
+[00:19:30.949] LOG    size : 20480
+[00:19:30.949] LOG    path : /system/lib64/libbattery.so
+[00:19:30.949] LOG    ========================================
+[00:19:30.949] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.949] LOG    
+[00:19:30.949] LOG    ========================================
+[00:19:30.949] LOG    [MODULE]
+[00:19:30.949] LOG    name : libnetdutils.so
+[00:19:30.949] LOG    base : 0x7343587000
+[00:19:30.949] LOG    size : 102400
+[00:19:30.950] LOG    path : /system/lib64/libnetdutils.so
+[00:19:30.950] LOG    ========================================
+[00:19:30.950] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.950] LOG    
+[00:19:30.950] LOG    ========================================
+[00:19:30.950] LOG    [MODULE]
+[00:19:30.950] LOG    name : libmemtrack.so
+[00:19:30.950] LOG    base : 0x7346d69000
+[00:19:30.950] LOG    size : 24576
+[00:19:30.950] LOG    path : /system/lib64/libmemtrack.so
+[00:19:30.951] LOG    ========================================
+[00:19:30.951] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.951] LOG    
+[00:19:30.951] LOG    ========================================
+[00:19:30.951] LOG    [MODULE]
+[00:19:30.951] LOG    name : libandroidfw.so
+[00:19:30.951] LOG    base : 0x7340d41000
+[00:19:30.951] LOG    size : 561152
+[00:19:30.951] LOG    path : /system/lib64/libandroidfw.so
+[00:19:30.951] LOG    ========================================
+[00:19:30.951] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.951] LOG    
+[00:19:30.951] LOG    ========================================
+[00:19:30.951] LOG    [MODULE]
+[00:19:30.952] LOG    name : libappfuse.so
+[00:19:30.952] LOG    base : 0x7346e70000
+[00:19:30.952] LOG    size : 57344
+[00:19:30.952] LOG    path : /system/lib64/libappfuse.so
+[00:19:30.952] LOG    ========================================
+[00:19:30.952] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.952] LOG    
+[00:19:30.952] LOG    ========================================
+[00:19:30.952] LOG    [MODULE]
+[00:19:30.952] LOG    name : libcrypto.so
+[00:19:30.952] LOG    base : 0x734101f000
+[00:19:30.952] LOG    size : 1376256
+[00:19:30.952] LOG    path : /system/lib64/libcrypto.so
+[00:19:30.952] LOG    ========================================
+[00:19:30.953] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.953] LOG    
+[00:19:30.953] LOG    ========================================
+[00:19:30.953] LOG    [MODULE]
+[00:19:30.953] LOG    name : libdebuggerd_client.so
+[00:19:30.953] LOG    base : 0x7346e05000
+[00:19:30.953] LOG    size : 45056
+[00:19:30.953] LOG    path : /system/lib64/libdebuggerd_client.so
+[00:19:30.953] LOG    ========================================
+[00:19:30.954] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.954] LOG    
+[00:19:30.954] LOG    ========================================
+[00:19:30.954] LOG    [MODULE]
+[00:19:30.954] LOG    name : libbinder_ndk.so
+[00:19:30.954] LOG    base : 0x734cd58000
+[00:19:30.954] LOG    size : 94208
+[00:19:30.954] LOG    path : /system/lib64/libbinder_ndk.so
+[00:19:30.954] LOG    ========================================
+[00:19:30.954] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.954] LOG    
+[00:19:30.954] LOG    ========================================
+[00:19:30.954] LOG    [MODULE]
+[00:19:30.955] LOG    name : libui.so
+[00:19:30.955] LOG    base : 0x7358b5c000
+[00:19:30.955] LOG    size : 335872
+[00:19:30.955] LOG    path : /system/lib64/libui.so
+[00:19:30.955] LOG    ========================================
+[00:19:30.955] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.955] LOG    
+[00:19:30.955] LOG    ========================================
+[00:19:30.955] LOG    [MODULE]
+[00:19:30.955] LOG    name : libgraphicsenv.so
+[00:19:30.955] LOG    base : 0x734c7db000
+[00:19:30.955] LOG    size : 53248
+[00:19:30.955] LOG    path : /system/lib64/libgraphicsenv.so
+[00:19:30.955] LOG    ========================================
+[00:19:30.956] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.956] LOG    
+[00:19:30.956] LOG    ========================================
+[00:19:30.956] LOG    [MODULE]
+[00:19:30.956] LOG    name : libgui.so
+[00:19:30.956] LOG    base : 0x7341267000
+[00:19:30.956] LOG    size : 1404928
+[00:19:30.956] LOG    path : /system/lib64/libgui.so
+[00:19:30.956] LOG    ========================================
+[00:19:30.957] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.957] LOG    
+[00:19:30.957] LOG    ========================================
+[00:19:30.957] LOG    [MODULE]
+[00:19:30.957] LOG    name : libhwui.so
+[00:19:30.957] LOG    base : 0x7347000000
+[00:19:30.957] LOG    size : 10719232
+[00:19:30.957] LOG    path : /system/lib64/libhwui.so
+[00:19:30.957] LOG    ========================================
+[00:19:30.957] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.957] LOG    
+[00:19:30.957] LOG    ========================================
+[00:19:30.957] LOG    [MODULE]
+[00:19:30.957] LOG    name : libmediandk.so
+[00:19:30.958] LOG    base : 0x7346dc1000
+[00:19:30.958] LOG    size : 225280
+[00:19:30.958] LOG    path : /system/lib64/libmediandk.so
+[00:19:30.958] LOG    ========================================
+[00:19:30.958] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.958] LOG    
+[00:19:30.958] LOG    ========================================
+[00:19:30.958] LOG    [MODULE]
+[00:19:30.958] LOG    name : libpermission.so
+[00:19:30.958] LOG    base : 0x7364d5c000
+[00:19:30.958] LOG    size : 77824
+[00:19:30.958] LOG    path : /system/lib64/libpermission.so
+[00:19:30.958] LOG    ========================================
+[00:19:30.959] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.959] LOG    
+[00:19:30.959] LOG    ========================================
+[00:19:30.959] LOG    [MODULE]
+[00:19:30.959] LOG    name : libsensor.so
+[00:19:30.959] LOG    base : 0x7358d0c000
+[00:19:30.959] LOG    size : 110592
+[00:19:30.959] LOG    path : /system/lib64/libsensor.so
+[00:19:30.959] LOG    ========================================
+[00:19:30.959] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.960] LOG    
+[00:19:30.960] LOG    ========================================
+[00:19:30.960] LOG    [MODULE]
+[00:19:30.960] LOG    name : libinput.so
+[00:19:30.960] LOG    base : 0x7360646000
+[00:19:30.960] LOG    size : 425984
+[00:19:30.960] LOG    path : /system/lib64/libinput.so
+[00:19:30.960] LOG    ========================================
+[00:19:30.960] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.960] LOG    
+[00:19:30.960] LOG    ========================================
+[00:19:30.960] LOG    [MODULE]
+[00:19:30.960] LOG    name : libcamera_client.so
+[00:19:30.961] LOG    base : 0x735355c000
+[00:19:30.961] LOG    size : 561152
+[00:19:30.961] LOG    path : /system/lib64/libcamera_client.so
+[00:19:30.961] LOG    ========================================
+[00:19:30.961] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.961] LOG    
+[00:19:30.961] LOG    ========================================
+[00:19:30.961] LOG    [MODULE]
+[00:19:30.961] LOG    name : libcamera_metadata.so
+[00:19:30.961] LOG    base : 0x7346ca7000
+[00:19:30.962] LOG    size : 57344
+[00:19:30.962] LOG    path : /system/lib64/libcamera_metadata.so
+[00:19:30.962] LOG    ========================================
+[00:19:30.962] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.962] LOG    
+[00:19:30.962] LOG    ========================================
+[00:19:30.962] LOG    [MODULE]
+[00:19:30.962] LOG    name : libprocinfo.so
+[00:19:30.962] LOG    base : 0x734bfc7000
+[00:19:30.962] LOG    size : 12288
+[00:19:30.962] LOG    path : /system/lib64/libprocinfo.so
+[00:19:30.962] LOG    ========================================
+[00:19:30.963] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.963] LOG    
+[00:19:30.963] LOG    ========================================
+[00:19:30.963] LOG    [MODULE]
+[00:19:30.963] LOG    name : libsqlite.so
+[00:19:30.963] LOG    base : 0x73496c4000
+[00:19:30.963] LOG    size : 1224704
+[00:19:30.963] LOG    path : /system/lib64/libsqlite.so
+[00:19:30.963] LOG    ========================================
+[00:19:30.963] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.963] LOG    
+[00:19:30.963] LOG    ========================================
+[00:19:30.963] LOG    [MODULE]
+[00:19:30.964] LOG    name : libEGL.so
+[00:19:30.964] LOG    base : 0x7364cc3000
+[00:19:30.964] LOG    size : 237568
+[00:19:30.964] LOG    path : /system/lib64/libEGL.so
+[00:19:30.964] LOG    ========================================
+[00:19:30.964] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.964] LOG    
+[00:19:30.964] LOG    ========================================
+[00:19:30.965] LOG    [MODULE]
+[00:19:30.965] LOG    name : libGLESv1_CM.so
+[00:19:30.965] LOG    base : 0x735cce5000
+[00:19:30.965] LOG    size : 40960
+[00:19:30.965] LOG    path : /system/lib64/libGLESv1_CM.so
+[00:19:30.965] LOG    ========================================
+[00:19:30.965] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.965] LOG    
+[00:19:30.965] LOG    ========================================
+[00:19:30.965] LOG    [MODULE]
+[00:19:30.965] LOG    name : libGLESv2.so
+[00:19:30.965] LOG    base : 0x734cbcd000
+[00:19:30.966] LOG    size : 110592
+[00:19:30.966] LOG    path : /system/lib64/libGLESv2.so
+[00:19:30.966] LOG    ========================================
+[00:19:30.966] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.966] LOG    
+[00:19:30.966] LOG    ========================================
+[00:19:30.966] LOG    [MODULE]
+[00:19:30.966] LOG    name : libGLESv3.so
+[00:19:30.966] LOG    base : 0x73411e5000
+[00:19:30.967] LOG    size : 110592
+[00:19:30.967] LOG    path : /system/lib64/libGLESv3.so
+[00:19:30.967] LOG    ========================================
+[00:19:30.967] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.967] LOG    
+[00:19:30.967] LOG    ========================================
+[00:19:30.967] LOG    [MODULE]
+[00:19:30.967] LOG    name : libincfs.so
+[00:19:30.967] LOG    base : 0x734c8c4000
+[00:19:30.967] LOG    size : 184320
+[00:19:30.967] LOG    path : /system/lib64/libincfs.so
+[00:19:30.967] LOG    ========================================
+[00:19:30.968] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.968] LOG    
+[00:19:30.968] LOG    ========================================
+[00:19:30.968] LOG    [MODULE]
+[00:19:30.968] LOG    name : libdataloader.so
+[00:19:30.968] LOG    base : 0x734cb95000
+[00:19:30.968] LOG    size : 77824
+[00:19:30.968] LOG    path : /system/lib64/libdataloader.so
+[00:19:30.968] LOG    ========================================
+[00:19:30.969] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.969] LOG    
+[00:19:30.969] LOG    ========================================
+[00:19:30.969] LOG    [MODULE]
+[00:19:30.969] LOG    name : libvulkan.so
+[00:19:30.969] LOG    base : 0x735388a000
+[00:19:30.969] LOG    size : 184320
+[00:19:30.969] LOG    path : /system/lib64/libvulkan.so
+[00:19:30.969] LOG    ========================================
+[00:19:30.970] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.970] LOG    
+[00:19:30.970] LOG    ========================================
+[00:19:30.970] LOG    [MODULE]
+[00:19:30.970] LOG    name : libETC1.so
+[00:19:30.970] LOG    base : 0x7346ee8000
+[00:19:30.970] LOG    size : 16384
+[00:19:30.970] LOG    path : /system/lib64/libETC1.so
+[00:19:30.970] LOG    ========================================
+[00:19:30.971] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.971] LOG    
+[00:19:30.971] LOG    ========================================
+[00:19:30.971] LOG    [MODULE]
+[00:19:30.971] LOG    name : libjpeg.so
+[00:19:30.971] LOG    base : 0x734cf07000
+[00:19:30.971] LOG    size : 462848
+[00:19:30.972] LOG    path : /system/lib64/libjpeg.so
+[00:19:30.972] LOG    ========================================
+[00:19:30.972] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.972] LOG    
+[00:19:30.972] LOG    ========================================
+[00:19:30.972] LOG    [MODULE]
+[00:19:30.972] LOG    name : libhardware.so
+[00:19:30.972] LOG    base : 0x73678f7000
+[00:19:30.973] LOG    size : 12288
+[00:19:30.973] LOG    path : /system/lib64/libhardware.so
+[00:19:30.973] LOG    ========================================
+[00:19:30.973] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.973] LOG    
+[00:19:30.973] LOG    ========================================
+[00:19:30.973] LOG    [MODULE]
+[00:19:30.973] LOG    name : libhardware_legacy.so
+[00:19:30.974] LOG    base : 0x7340a58000
+[00:19:30.974] LOG    size : 32768
+[00:19:30.974] LOG    path : /system/lib64/libhardware_legacy.so
+[00:19:30.974] LOG    ========================================
+[00:19:30.974] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.974] LOG    
+[00:19:30.975] LOG    ========================================
+[00:19:30.975] LOG    [MODULE]
+[00:19:30.975] LOG    name : libselinux.so
+[00:19:30.975] LOG    base : 0x7347b9f000
+[00:19:30.975] LOG    size : 122880
+[00:19:30.975] LOG    path : /system/lib64/libselinux.so
+[00:19:30.975] LOG    ========================================
+[00:19:30.975] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.975] LOG    
+[00:19:30.976] LOG    ========================================
+[00:19:30.976] LOG    [MODULE]
+[00:19:30.976] LOG    name : libmedia.so
+[00:19:30.976] LOG    base : 0x734c0f8000
+[00:19:30.976] LOG    size : 659456
+[00:19:30.976] LOG    path : /system/lib64/libmedia.so
+[00:19:30.976] LOG    ========================================
+[00:19:30.976] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.977] LOG    
+[00:19:30.977] LOG    ========================================
+[00:19:30.977] LOG    [MODULE]
+[00:19:30.977] LOG    name : libmedia_helper.so
+[00:19:30.977] LOG    base : 0x734f403000
+[00:19:30.977] LOG    size : 122880
+[00:19:30.977] LOG    path : /system/lib64/libmedia_helper.so
+[00:19:30.978] LOG    ========================================
+[00:19:30.978] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.978] LOG    
+[00:19:30.978] LOG    ========================================
+[00:19:30.978] LOG    [MODULE]
+[00:19:30.978] LOG    name : libmediametrics.so
+[00:19:30.978] LOG    base : 0x7342013000
+[00:19:30.978] LOG    size : 77824
+[00:19:30.978] LOG    path : /system/lib64/libmediametrics.so
+[00:19:30.979] LOG    ========================================
+[00:19:30.979] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.979] LOG    
+[00:19:30.979] LOG    ========================================
+[00:19:30.979] LOG    [MODULE]
+[00:19:30.979] LOG    name : libmeminfo.so
+[00:19:30.979] LOG    base : 0x736099e000
+[00:19:30.980] LOG    size : 98304
+[00:19:30.980] LOG    path : /system/lib64/libmeminfo.so
+[00:19:30.980] LOG    ========================================
+[00:19:30.980] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.980] LOG    
+[00:19:30.980] LOG    ========================================
+[00:19:30.980] LOG    [MODULE]
+[00:19:30.980] LOG    name : libaudioclient.so
+[00:19:30.980] LOG    base : 0x7357b1e000
+[00:19:30.981] LOG    size : 921600
+[00:19:30.981] LOG    path : /system/lib64/libaudioclient.so
+[00:19:30.981] LOG    ========================================
+[00:19:30.981] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.981] LOG    
+[00:19:30.981] LOG    ========================================
+[00:19:30.981] LOG    [MODULE]
+[00:19:30.981] LOG    name : libaudioclient_aidl_conversion.so
+[00:19:30.981] LOG    base : 0x7353d80000
+[00:19:30.981] LOG    size : 262144
+[00:19:30.981] LOG    path : /system/lib64/libaudioclient_aidl_conversion.so
+[00:19:30.982] LOG    ========================================
+[00:19:30.982] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.982] LOG    
+[00:19:30.982] LOG    ========================================
+[00:19:30.982] LOG    [MODULE]
+[00:19:30.982] LOG    name : libaudiofoundation.so
+[00:19:30.982] LOG    base : 0x7353340000
+[00:19:30.982] LOG    size : 253952
+[00:19:30.983] LOG    path : /system/lib64/libaudiofoundation.so
+[00:19:30.983] LOG    ========================================
+[00:19:30.983] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.983] LOG    
+[00:19:30.983] LOG    ========================================
+[00:19:30.983] LOG    [MODULE]
+[00:19:30.983] LOG    name : libaudiopolicy.so
+[00:19:30.983] LOG    base : 0x7360901000
+[00:19:30.983] LOG    size : 90112
+[00:19:30.983] LOG    path : /system/lib64/libaudiopolicy.so
+[00:19:30.983] LOG    ========================================
+[00:19:30.984] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.984] LOG    
+[00:19:30.984] LOG    ========================================
+[00:19:30.984] LOG    [MODULE]
+[00:19:30.984] LOG    name : libusbhost.so
+[00:19:30.984] LOG    base : 0x7359142000
+[00:19:30.985] LOG    size : 24576
+[00:19:30.985] LOG    path : /system/lib64/libusbhost.so
+[00:19:30.985] LOG    ========================================
+[00:19:30.985] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.985] LOG    
+[00:19:30.985] LOG    ========================================
+[00:19:30.985] LOG    [MODULE]
+[00:19:30.985] LOG    name : libpdfium.so
+[00:19:30.985] LOG    base : 0x73538e6000
+[00:19:30.985] LOG    size : 4464640
+[00:19:30.985] LOG    path : /system/lib64/libpdfium.so
+[00:19:30.986] LOG    ========================================
+[00:19:30.986] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.986] LOG    
+[00:19:30.986] LOG    ========================================
+[00:19:30.986] LOG    [MODULE]
+[00:19:30.986] LOG    name : libimg_utils.so
+[00:19:30.986] LOG    base : 0x7360bda000
+[00:19:30.986] LOG    size : 126976
+[00:19:30.986] LOG    path : /system/lib64/libimg_utils.so
+[00:19:30.987] LOG    ========================================
+[00:19:30.987] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.987] LOG    
+[00:19:30.987] LOG    ========================================
+[00:19:30.987] LOG    [MODULE]
+[00:19:30.987] LOG    name : libnetd_client.so
+[00:19:30.987] LOG    base : 0x7357974000
+[00:19:30.987] LOG    size : 40960
+[00:19:30.987] LOG    path : /system/lib64/libnetd_client.so
+[00:19:30.987] LOG    ========================================
+[00:19:30.988] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.988] LOG    
+[00:19:30.988] LOG    ========================================
+[00:19:30.988] LOG    [MODULE]
+[00:19:30.988] LOG    name : libprocessgroup.so
+[00:19:30.988] LOG    base : 0x734965c000
+[00:19:30.988] LOG    size : 356352
+[00:19:30.988] LOG    path : /system/lib64/libprocessgroup.so
+[00:19:30.988] LOG    ========================================
+[00:19:30.989] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.989] LOG    
+[00:19:30.989] LOG    ========================================
+[00:19:30.989] LOG    [MODULE]
+[00:19:30.989] LOG    name : libnativebridge_lazy.so
+[00:19:30.989] LOG    base : 0x735788e000
+[00:19:30.989] LOG    size : 200704
+[00:19:30.989] LOG    path : /system/lib64/libnativebridge_lazy.so
+[00:19:30.989] LOG    ========================================
+[00:19:30.990] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.990] LOG    
+[00:19:30.990] LOG    ========================================
+[00:19:30.990] LOG    [MODULE]
+[00:19:30.990] LOG    name : libnativeloader_lazy.so
+[00:19:30.990] LOG    base : 0x735cd41000
+[00:19:30.990] LOG    size : 200704
+[00:19:30.991] LOG    path : /system/lib64/libnativeloader_lazy.so
+[00:19:30.991] LOG    ========================================
+[00:19:30.991] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.991] LOG    
+[00:19:30.991] LOG    ========================================
+[00:19:30.991] LOG    [MODULE]
+[00:19:30.991] LOG    name : libmemunreachable.so
+[00:19:30.991] LOG    base : 0x7340bc6000
+[00:19:30.991] LOG    size : 200704
+[00:19:30.992] LOG    path : /system/lib64/libmemunreachable.so
+[00:19:30.992] LOG    ========================================
+[00:19:30.992] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.992] LOG    
+[00:19:30.992] LOG    ========================================
+[00:19:30.992] LOG    [MODULE]
+[00:19:30.992] LOG    name : libvintf.so
+[00:19:30.992] LOG    base : 0x7343297000
+[00:19:30.993] LOG    size : 589824
+[00:19:30.993] LOG    path : /system/lib64/libvintf.so
+[00:19:30.993] LOG    ========================================
+[00:19:30.993] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.993] LOG    
+[00:19:30.993] LOG    ========================================
+[00:19:30.993] LOG    [MODULE]
+[00:19:30.993] LOG    name : libnativedisplay.so
+[00:19:30.994] LOG    base : 0x7353846000
+[00:19:30.994] LOG    size : 81920
+[00:19:30.994] LOG    path : /system/lib64/libnativedisplay.so
+[00:19:30.994] LOG    ========================================
+[00:19:30.994] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.994] LOG    
+[00:19:30.994] LOG    ========================================
+[00:19:30.994] LOG    [MODULE]
+[00:19:30.994] LOG    name : libnativewindow.so
+[00:19:30.994] LOG    base : 0x734f5c8000
+[00:19:30.995] LOG    size : 32768
+[00:19:30.995] LOG    path : /system/lib64/libnativewindow.so
+[00:19:30.995] LOG    ========================================
+[00:19:30.995] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.995] LOG    
+[00:19:30.995] LOG    ========================================
+[00:19:30.995] LOG    [MODULE]
+[00:19:30.995] LOG    name : libdl_android.so
+[00:19:30.996] LOG    base : 0x7364fb1000
+[00:19:30.996] LOG    size : 12288
+[00:19:30.996] LOG    path : /apex/com.android.runtime/lib64/bionic/libdl_android.so
+[00:19:30.996] LOG    ========================================
+[00:19:30.996] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.996] LOG    
+[00:19:30.996] LOG    ========================================
+[00:19:30.996] LOG    [MODULE]
+[00:19:30.996] LOG    name : libtimeinstate.so
+[00:19:30.997] LOG    base : 0x734cca1000
+[00:19:30.997] LOG    size : 61440
+[00:19:30.997] LOG    path : /system/lib64/libtimeinstate.so
+[00:19:30.997] LOG    ========================================
+[00:19:30.997] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.997] LOG    
+[00:19:30.997] LOG    ========================================
+[00:19:30.997] LOG    [MODULE]
+[00:19:30.998] LOG    name : server_configurable_flags.so
+[00:19:30.998] LOG    base : 0x7364fda000
+[00:19:30.998] LOG    size : 20480
+[00:19:30.998] LOG    path : /system/lib64/server_configurable_flags.so
+[00:19:30.998] LOG    ========================================
+[00:19:30.998] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.998] LOG    
+[00:19:30.998] LOG    ========================================
+[00:19:30.998] LOG    [MODULE]
+[00:19:30.998] LOG    name : liboplusplugin.so
+[00:19:30.999] LOG    base : 0x7349892000
+[00:19:30.999] LOG    size : 7241728
+[00:19:30.999] LOG    path : /system_ext/lib64/liboplusplugin.so
+[00:19:30.999] LOG    ========================================
+[00:19:30.999] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:30.999] LOG    
+[00:19:30.999] LOG    ========================================
+[00:19:30.999] LOG    [MODULE]
+[00:19:31.000] LOG    name : libvndksupport.so
+[00:19:31.000] LOG    base : 0x734f2b5000
+[00:19:31.000] LOG    size : 16384
+[00:19:31.000] LOG    path : /system/lib64/libvndksupport.so
+[00:19:31.000] LOG    ========================================
+[00:19:31.000] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.000] LOG    
+[00:19:31.000] LOG    ========================================
+[00:19:31.000] LOG    [MODULE]
+[00:19:31.001] LOG    name : libnativebridge.so
+[00:19:31.001] LOG    base : 0x7358d82000
+[00:19:31.001] LOG    size : 53248
+[00:19:31.001] LOG    path : /apex/com.android.art/lib64/libnativebridge.so
+[00:19:31.001] LOG    ========================================
+[00:19:31.001] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.001] LOG    
+[00:19:31.001] LOG    ========================================
+[00:19:31.002] LOG    [MODULE]
+[00:19:31.002] LOG    name : libbase.so
+[00:19:31.002] LOG    base : 0x7358bc0000
+[00:19:31.002] LOG    size : 217088
+[00:19:31.002] LOG    path : /apex/com.android.art/lib64/libbase.so
+[00:19:31.002] LOG    ========================================
+[00:19:31.002] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.002] LOG    
+[00:19:31.002] LOG    ========================================
+[00:19:31.002] LOG    [MODULE]
+[00:19:31.003] LOG    name : libc++.so
+[00:19:31.003] LOG    base : 0x7340a85000
+[00:19:31.003] LOG    size : 1224704
+[00:19:31.003] LOG    path : /apex/com.android.art/lib64/libc++.so
+[00:19:31.003] LOG    ========================================
+[00:19:31.003] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.003] LOG    
+[00:19:31.003] LOG    ========================================
+[00:19:31.004] LOG    [MODULE]
+[00:19:31.004] LOG    name : libunwindstack.so
+[00:19:31.004] LOG    base : 0x7360842000
+[00:19:31.004] LOG    size : 724992
+[00:19:31.004] LOG    path : /apex/com.android.art/lib64/libunwindstack.so
+[00:19:31.004] LOG    ========================================
+[00:19:31.004] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.004] LOG    
+[00:19:31.005] LOG    ========================================
+[00:19:31.005] LOG    [MODULE]
+[00:19:31.005] LOG    name : framework-permission-aidl-cpp.so
+[00:19:31.005] LOG    base : 0x734beca000
+[00:19:31.005] LOG    size : 45056
+[00:19:31.005] LOG    path : /system/lib64/framework-permission-aidl-cpp.so
+[00:19:31.005] LOG    ========================================
+[00:19:31.005] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.005] LOG    
+[00:19:31.006] LOG    ========================================
+[00:19:31.006] LOG    [MODULE]
+[00:19:31.006] LOG    name : libmedia_codeclist.so
+[00:19:31.006] LOG    base : 0x73433a5000
+[00:19:31.006] LOG    size : 65536
+[00:19:31.006] LOG    path : /system/lib64/libmedia_codeclist.so
+[00:19:31.006] LOG    ========================================
+[00:19:31.006] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.007] LOG    
+[00:19:31.007] LOG    ========================================
+[00:19:31.007] LOG    [MODULE]
+[00:19:31.007] LOG    name : libaudiomanager.so
+[00:19:31.007] LOG    base : 0x73610b7000
+[00:19:31.007] LOG    size : 24576
+[00:19:31.007] LOG    path : /system/lib64/libaudiomanager.so
+[00:19:31.007] LOG    ========================================
+[00:19:31.007] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.008] LOG    
+[00:19:31.008] LOG    ========================================
+[00:19:31.008] LOG    [MODULE]
+[00:19:31.008] LOG    name : libdatasource.so
+[00:19:31.008] LOG    base : 0x7358ae6000
+[00:19:31.008] LOG    size : 86016
+[00:19:31.008] LOG    path : /system/lib64/libdatasource.so
+[00:19:31.008] LOG    ========================================
+[00:19:31.009] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.009] LOG    
+[00:19:31.009] LOG    ========================================
+[00:19:31.009] LOG    [MODULE]
+[00:19:31.009] LOG    name : libstagefright.so
+[00:19:31.009] LOG    base : 0x735ce02000
+[00:19:31.009] LOG    size : 1974272
+[00:19:31.009] LOG    path : /system/lib64/libstagefright.so
+[00:19:31.010] LOG    ========================================
+[00:19:31.010] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.010] LOG    
+[00:19:31.010] LOG    ========================================
+[00:19:31.010] LOG    [MODULE]
+[00:19:31.010] LOG    name : libstagefright_foundation.so
+[00:19:31.010] LOG    base : 0x73609c6000
+[00:19:31.010] LOG    size : 233472
+[00:19:31.011] LOG    path : /system/lib64/libstagefright_foundation.so
+[00:19:31.011] LOG    ========================================
+[00:19:31.011] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.011] LOG    
+[00:19:31.011] LOG    ========================================
+[00:19:31.011] LOG    [MODULE]
+[00:19:31.011] LOG    name : libstagefright_http_support.so
+[00:19:31.011] LOG    base : 0x7341ede000
+[00:19:31.011] LOG    size : 16384
+[00:19:31.012] LOG    path : /system/lib64/libstagefright_http_support.so
+[00:19:31.012] LOG    ========================================
+[00:19:31.012] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.012] LOG    
+[00:19:31.012] LOG    ========================================
+[00:19:31.012] LOG    [MODULE]
+[00:19:31.012] LOG    name : libicu.so
+[00:19:31.013] LOG    base : 0x734346d000
+[00:19:31.013] LOG    size : 65536
+[00:19:31.013] LOG    path : /apex/com.android.i18n/lib64/libicu.so
+[00:19:31.013] LOG    ========================================
+[00:19:31.013] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.013] LOG    
+[00:19:31.013] LOG    ========================================
+[00:19:31.013] LOG    [MODULE]
+[00:19:31.014] LOG    name : effect-aidl-cpp.so
+[00:19:31.014] LOG    base : 0x7346cd1000
+[00:19:31.014] LOG    size : 61440
+[00:19:31.014] LOG    path : /system/lib64/effect-aidl-cpp.so
+[00:19:31.014] LOG    ========================================
+[00:19:31.014] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.014] LOG    
+[00:19:31.014] LOG    ========================================
+[00:19:31.015] LOG    [MODULE]
+[00:19:31.015] LOG    name : shared-file-region-aidl-cpp.so
+[00:19:31.015] LOG    base : 0x73434a8000
+[00:19:31.015] LOG    size : 16384
+[00:19:31.015] LOG    path : /system/lib64/shared-file-region-aidl-cpp.so
+[00:19:31.015] LOG    ========================================
+[00:19:31.015] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.015] LOG    
+[00:19:31.016] LOG    ========================================
+[00:19:31.016] LOG    [MODULE]
+[00:19:31.016] LOG    name : android.hardware.camera.common@1.0.so
+[00:19:31.016] LOG    base : 0x735cdbd000
+[00:19:31.016] LOG    size : 12288
+[00:19:31.016] LOG    path : /system/lib64/android.hardware.camera.common@1.0.so
+[00:19:31.016] LOG    ========================================
+[00:19:31.016] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.017] LOG    
+[00:19:31.017] LOG    ========================================
+[00:19:31.017] LOG    [MODULE]
+[00:19:31.017] LOG    name : android.hardware.graphics.common@1.0.so
+[00:19:31.017] LOG    base : 0x7341f54000
+[00:19:31.017] LOG    size : 12288
+[00:19:31.017] LOG    path : /system/lib64/android.hardware.graphics.common@1.0.so
+[00:19:31.017] LOG    ========================================
+[00:19:31.018] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.018] LOG    
+[00:19:31.018] LOG    ========================================
+[00:19:31.018] LOG    [MODULE]
+[00:19:31.018] LOG    name : libbase.so
+[00:19:31.018] LOG    base : 0x7353500000
+[00:19:31.018] LOG    size : 262144
+[00:19:31.019] LOG    path : /system/lib64/libbase.so
+[00:19:31.019] LOG    ========================================
+[00:19:31.019] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.019] LOG    
+[00:19:31.019] LOG    ========================================
+[00:19:31.019] LOG    [MODULE]
+[00:19:31.019] LOG    name : libicuuc.so
+[00:19:31.019] LOG    base : 0x734f618000
+[00:19:31.019] LOG    size : 1986560
+[00:19:31.020] LOG    path : /apex/com.android.i18n/lib64/libicuuc.so
+[00:19:31.020] LOG    ========================================
+[00:19:31.020] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.020] LOG    
+[00:19:31.020] LOG    ========================================
+[00:19:31.020] LOG    [MODULE]
+[00:19:31.020] LOG    name : libicui18n.so
+[00:19:31.021] LOG    base : 0x73436da000
+[00:19:31.021] LOG    size : 2826240
+[00:19:31.021] LOG    path : /apex/com.android.i18n/lib64/libicui18n.so
+[00:19:31.021] LOG    ========================================
+[00:19:31.021] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.021] LOG    
+[00:19:31.021] LOG    ========================================
+[00:19:31.022] LOG    [MODULE]
+[00:19:31.022] LOG    name : libc++.so
+[00:19:31.022] LOG    base : 0x735328d000
+[00:19:31.022] LOG    size : 729088
+[00:19:31.022] LOG    path : /system/lib64/libc++.so
+[00:19:31.022] LOG    ========================================
+[00:19:31.022] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.022] LOG    
+[00:19:31.022] LOG    ========================================
+[00:19:31.023] LOG    [MODULE]
+[00:19:31.023] LOG    name : android.hardware.memtrack@1.0.so
+[00:19:31.023] LOG    base : 0x7364f19000
+[00:19:31.023] LOG    size : 77824
+[00:19:31.023] LOG    path : /system/lib64/android.hardware.memtrack@1.0.so
+[00:19:31.023] LOG    ========================================
+[00:19:31.023] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.024] LOG    
+[00:19:31.024] LOG    ========================================
+[00:19:31.024] LOG    [MODULE]
+[00:19:31.024] LOG    name : android.hardware.memtrack-V1-ndk.so
+[00:19:31.024] LOG    base : 0x73578f2000
+[00:19:31.024] LOG    size : 45056
+[00:19:31.024] LOG    path : /system/lib64/android.hardware.memtrack-V1-ndk.so
+[00:19:31.025] LOG    ========================================
+[00:19:31.025] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.025] LOG    
+[00:19:31.025] LOG    ========================================
+[00:19:31.025] LOG    [MODULE]
+[00:19:31.025] LOG    name : libandroid_runtime_lazy.so
+[00:19:31.025] LOG    base : 0x736104e000
+[00:19:31.026] LOG    size : 16384
+[00:19:31.026] LOG    path : /system/lib64/libandroid_runtime_lazy.so
+[00:19:31.026] LOG    ========================================
+[00:19:31.026] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.026] LOG    
+[00:19:31.026] LOG    ========================================
+[00:19:31.026] LOG    [MODULE]
+[00:19:31.027] LOG    name : android.hardware.graphics.allocator@2.0.so
+[00:19:31.027] LOG    base : 0x734ce1d000
+[00:19:31.027] LOG    size : 86016
+[00:19:31.027] LOG    path : /system/lib64/android.hardware.graphics.allocator@2.0.so
+[00:19:31.027] LOG    ========================================
+[00:19:31.027] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.027] LOG    
+[00:19:31.027] LOG    ========================================
+[00:19:31.027] LOG    [MODULE]
+[00:19:31.028] LOG    name : android.hardware.graphics.allocator@3.0.so
+[00:19:31.028] LOG    base : 0x7340feb000
+[00:19:31.028] LOG    size : 86016
+[00:19:31.028] LOG    path : /system/lib64/android.hardware.graphics.allocator@3.0.so
+[00:19:31.028] LOG    ========================================
+[00:19:31.029] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.029] LOG    
+[00:19:31.029] LOG    ========================================
+[00:19:31.029] LOG    [MODULE]
+[00:19:31.029] LOG    name : android.hardware.graphics.allocator@4.0.so
+[00:19:31.029] LOG    base : 0x734c09f000
+[00:19:31.029] LOG    size : 77824
+[00:19:31.030] LOG    path : /system/lib64/android.hardware.graphics.allocator@4.0.so
+[00:19:31.030] LOG    ========================================
+[00:19:31.030] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.030] LOG    
+[00:19:31.030] LOG    ========================================
+[00:19:31.030] LOG    [MODULE]
+[00:19:31.030] LOG    name : android.hardware.graphics.allocator-V1-ndk.so
+[00:19:31.030] LOG    base : 0x7357aa4000
+[00:19:31.031] LOG    size : 40960
+[00:19:31.031] LOG    path : /system/lib64/android.hardware.graphics.allocator-V1-ndk.so
+[00:19:31.031] LOG    ========================================
+[00:19:31.031] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.031] LOG    
+[00:19:31.031] LOG    ========================================
+[00:19:31.031] LOG    [MODULE]
+[00:19:31.032] LOG    name : android.hardware.graphics.common-V3-ndk.so
+[00:19:31.032] LOG    base : 0x7347a5c000
+[00:19:31.032] LOG    size : 32768
+[00:19:31.032] LOG    path : /system/lib64/android.hardware.graphics.common-V3-ndk.so
+[00:19:31.032] LOG    ========================================
+[00:19:31.032] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.032] LOG    
+[00:19:31.032] LOG    ========================================
+[00:19:31.033] LOG    [MODULE]
+[00:19:31.033] LOG    name : android.hardware.graphics.common@1.2.so
+[00:19:31.033] LOG    base : 0x7360812000
+[00:19:31.033] LOG    size : 12288
+[00:19:31.033] LOG    path : /system/lib64/android.hardware.graphics.common@1.2.so
+[00:19:31.033] LOG    ========================================
+[00:19:31.034] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.034] LOG    
+[00:19:31.034] LOG    ========================================
+[00:19:31.034] LOG    [MODULE]
+[00:19:31.034] LOG    name : android.hardware.graphics.mapper@2.0.so
+[00:19:31.034] LOG    base : 0x7340ea6000
+[00:19:31.034] LOG    size : 94208
+[00:19:31.034] LOG    path : /system/lib64/android.hardware.graphics.mapper@2.0.so
+[00:19:31.035] LOG    ========================================
+[00:19:31.035] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.035] LOG    
+[00:19:31.035] LOG    ========================================
+[00:19:31.035] LOG    [MODULE]
+[00:19:31.035] LOG    name : android.hardware.graphics.mapper@2.1.so
+[00:19:31.035] LOG    base : 0x734cb52000
+[00:19:31.036] LOG    size : 94208
+[00:19:31.036] LOG    path : /system/lib64/android.hardware.graphics.mapper@2.1.so
+[00:19:31.036] LOG    ========================================
+[00:19:31.036] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.036] LOG    
+[00:19:31.036] LOG    ========================================
+[00:19:31.036] LOG    [MODULE]
+[00:19:31.037] LOG    name : android.hardware.graphics.mapper@3.0.so
+[00:19:31.037] LOG    base : 0x7341f90000
+[00:19:31.037] LOG    size : 98304
+[00:19:31.037] LOG    path : /system/lib64/android.hardware.graphics.mapper@3.0.so
+[00:19:31.037] LOG    ========================================
+[00:19:31.037] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.037] LOG    
+[00:19:31.037] LOG    ========================================
+[00:19:31.038] LOG    [MODULE]
+[00:19:31.038] LOG    name : android.hardware.graphics.mapper@4.0.so
+[00:19:31.038] LOG    base : 0x7364a53000
+[00:19:31.038] LOG    size : 122880
+[00:19:31.038] LOG    path : /system/lib64/android.hardware.graphics.mapper@4.0.so
+[00:19:31.038] LOG    ========================================
+[00:19:31.038] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.039] LOG    
+[00:19:31.039] LOG    ========================================
+[00:19:31.039] LOG    [MODULE]
+[00:19:31.039] LOG    name : libgralloctypes.so
+[00:19:31.039] LOG    base : 0x73434d4000
+[00:19:31.039] LOG    size : 86016
+[00:19:31.040] LOG    path : /system/lib64/libgralloctypes.so
+[00:19:31.040] LOG    ========================================
+[00:19:31.040] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.040] LOG    
+[00:19:31.040] LOG    ========================================
+[00:19:31.040] LOG    [MODULE]
+[00:19:31.040] LOG    name : libsync.so
+[00:19:31.040] LOG    base : 0x734ceca000
+[00:19:31.041] LOG    size : 16384
+[00:19:31.041] LOG    path : /system/lib64/libsync.so
+[00:19:31.041] LOG    ========================================
+[00:19:31.041] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.041] LOG    
+[00:19:31.041] LOG    ========================================
+[00:19:31.042] LOG    [MODULE]
+[00:19:31.042] LOG    name : android.hardware.graphics.bufferqueue@1.0.so
+[00:19:31.042] LOG    base : 0x7367985000
+[00:19:31.042] LOG    size : 200704
+[00:19:31.042] LOG    path : /system/lib64/android.hardware.graphics.bufferqueue@1.0.so
+[00:19:31.042] LOG    ========================================
+[00:19:31.043] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.043] LOG    
+[00:19:31.043] LOG    ========================================
+[00:19:31.043] LOG    [MODULE]
+[00:19:31.043] LOG    name : android.hardware.graphics.bufferqueue@2.0.so
+[00:19:31.043] LOG    base : 0x735918e000
+[00:19:31.044] LOG    size : 180224
+[00:19:31.044] LOG    path : /system/lib64/android.hardware.graphics.bufferqueue@2.0.so
+[00:19:31.044] LOG    ========================================
+[00:19:31.044] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.044] LOG    
+[00:19:31.044] LOG    ========================================
+[00:19:31.044] LOG    [MODULE]
+[00:19:31.045] LOG    name : android.hardware.graphics.common@1.1.so
+[00:19:31.045] LOG    base : 0x734cd35000
+[00:19:31.045] LOG    size : 12288
+[00:19:31.045] LOG    path : /system/lib64/android.hardware.graphics.common@1.1.so
+[00:19:31.045] LOG    ========================================
+[00:19:31.045] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.045] LOG    
+[00:19:31.046] LOG    ========================================
+[00:19:31.046] LOG    [MODULE]
+[00:19:31.046] LOG    name : android.hidl.token@1.0-utils.so
+[00:19:31.046] LOG    base : 0x7357993000
+[00:19:31.046] LOG    size : 20480
+[00:19:31.046] LOG    path : /system/lib64/android.hidl.token@1.0-utils.so
+[00:19:31.046] LOG    ========================================
+[00:19:31.047] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.047] LOG    
+[00:19:31.047] LOG    ========================================
+[00:19:31.047] LOG    [MODULE]
+[00:19:31.047] LOG    name : libbufferhub.so
+[00:19:31.047] LOG    base : 0x735cde2000
+[00:19:31.048] LOG    size : 65536
+[00:19:31.048] LOG    path : /system/lib64/libbufferhub.so
+[00:19:31.048] LOG    ========================================
+[00:19:31.048] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.048] LOG    
+[00:19:31.048] LOG    ========================================
+[00:19:31.049] LOG    [MODULE]
+[00:19:31.049] LOG    name : libbufferhubqueue.so
+[00:19:31.049] LOG    base : 0x734be62000
+[00:19:31.049] LOG    size : 118784
+[00:19:31.049] LOG    path : /system/lib64/libbufferhubqueue.so
+[00:19:31.049] LOG    ========================================
+[00:19:31.049] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.050] LOG    
+[00:19:31.050] LOG    ========================================
+[00:19:31.050] LOG    [MODULE]
+[00:19:31.050] LOG    name : libpdx_default_transport.so
+[00:19:31.050] LOG    base : 0x734340a000
+[00:19:31.050] LOG    size : 159744
+[00:19:31.050] LOG    path : /system/lib64/libpdx_default_transport.so
+[00:19:31.051] LOG    ========================================
+[00:19:31.051] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.051] LOG    
+[00:19:31.051] LOG    ========================================
+[00:19:31.051] LOG    [MODULE]
+[00:19:31.051] LOG    name : libpng.so
+[00:19:31.052] LOG    base : 0x7357a00000
+[00:19:31.052] LOG    size : 286720
+[00:19:31.052] LOG    path : /system/lib64/libpng.so
+[00:19:31.052] LOG    ========================================
+[00:19:31.052] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.053] LOG    
+[00:19:31.053] LOG    ========================================
+[00:19:31.053] LOG    [MODULE]
+[00:19:31.053] LOG    name : libpiex.so
+[00:19:31.053] LOG    base : 0x734ca4f000
+[00:19:31.053] LOG    size : 110592
+[00:19:31.053] LOG    path : /system/lib64/libpiex.so
+[00:19:31.054] LOG    ========================================
+[00:19:31.054] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.054] LOG    
+[00:19:31.054] LOG    ========================================
+[00:19:31.054] LOG    [MODULE]
+[00:19:31.054] LOG    name : libexpat.so
+[00:19:31.055] LOG    base : 0x734cd9a000
+[00:19:31.055] LOG    size : 151552
+[00:19:31.055] LOG    path : /system/lib64/libexpat.so
+[00:19:31.055] LOG    ========================================
+[00:19:31.055] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.055] LOG    
+[00:19:31.055] LOG    ========================================
+[00:19:31.056] LOG    [MODULE]
+[00:19:31.056] LOG    name : libheif.so
+[00:19:31.056] LOG    base : 0x7353dd6000
+[00:19:31.056] LOG    size : 40960
+[00:19:31.056] LOG    path : /system/lib64/libheif.so
+[00:19:31.056] LOG    ========================================
+[00:19:31.057] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.057] LOG    
+[00:19:31.057] LOG    ========================================
+[00:19:31.057] LOG    [MODULE]
+[00:19:31.057] LOG    name : libdng_sdk.so
+[00:19:31.057] LOG    base : 0x734f45c000
+[00:19:31.058] LOG    size : 1433600
+[00:19:31.058] LOG    path : /system/lib64/libdng_sdk.so
+[00:19:31.058] LOG    ========================================
+[00:19:31.058] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.058] LOG    
+[00:19:31.059] LOG    ========================================
+[00:19:31.059] LOG    [MODULE]
+[00:19:31.059] LOG    name : android.hardware.graphics.composer3-V1-ndk.so
+[00:19:31.059] LOG    base : 0x735784d000
+[00:19:31.059] LOG    size : 200704
+[00:19:31.059] LOG    path : /system/lib64/android.hardware.graphics.composer3-V1-ndk.so
+[00:19:31.059] LOG    ========================================
+[00:19:31.059] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.060] LOG    
+[00:19:31.060] LOG    ========================================
+[00:19:31.060] LOG    [MODULE]
+[00:19:31.060] LOG    name : libprotobuf-cpp-lite.so
+[00:19:31.060] LOG    base : 0x734d001000
+[00:19:31.060] LOG    size : 507904
+[00:19:31.061] LOG    path : /system/lib64/libprotobuf-cpp-lite.so
+[00:19:31.061] LOG    ========================================
+[00:19:31.061] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.061] LOG    
+[00:19:31.061] LOG    ========================================
+[00:19:31.062] LOG    [MODULE]
+[00:19:31.062] LOG    name : libft2.so
+[00:19:31.062] LOG    base : 0x7364a89000
+[00:19:31.062] LOG    size : 675840
+[00:19:31.062] LOG    path : /system/lib64/libft2.so
+[00:19:31.062] LOG    ========================================
+[00:19:31.063] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.063] LOG    
+[00:19:31.063] LOG    ========================================
+[00:19:31.063] LOG    [MODULE]
+[00:19:31.063] LOG    name : libjpeg-alpha.so
+[00:19:31.063] LOG    base : 0x734c689000
+[00:19:31.063] LOG    size : 389120
+[00:19:31.064] LOG    path : /system/lib64/libjpeg-alpha.so
+[00:19:31.064] LOG    ========================================
+[00:19:31.064] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.064] LOG    
+[00:19:31.064] LOG    ========================================
+[00:19:31.064] LOG    [MODULE]
+[00:19:31.064] LOG    name : vendor.mediatek.hardware.mms@1.0.so
+[00:19:31.065] LOG    base : 0x7358e00000
+[00:19:31.065] LOG    size : 94208
+[00:19:31.065] LOG    path : /system/lib64/vendor.mediatek.hardware.mms@1.0.so
+[00:19:31.065] LOG    ========================================
+[00:19:31.065] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.065] LOG    
+[00:19:31.066] LOG    ========================================
+[00:19:31.066] LOG    [MODULE]
+[00:19:31.066] LOG    name : vendor.mediatek.hardware.mms@1.1.so
+[00:19:31.066] LOG    base : 0x7346e97000
+[00:19:31.066] LOG    size : 86016
+[00:19:31.066] LOG    path : /system/lib64/vendor.mediatek.hardware.mms@1.1.so
+[00:19:31.067] LOG    ========================================
+[00:19:31.067] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.067] LOG    
+[00:19:31.067] LOG    ========================================
+[00:19:31.067] LOG    [MODULE]
+[00:19:31.067] LOG    name : vendor.mediatek.hardware.mms@1.2.so
+[00:19:31.068] LOG    base : 0x7360706000
+[00:19:31.068] LOG    size : 90112
+[00:19:31.068] LOG    path : /system/lib64/vendor.mediatek.hardware.mms@1.2.so
+[00:19:31.068] LOG    ========================================
+[00:19:31.068] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.068] LOG    
+[00:19:31.068] LOG    ========================================
+[00:19:31.069] LOG    [MODULE]
+[00:19:31.069] LOG    name : vendor.mediatek.hardware.mms@1.3.so
+[00:19:31.069] LOG    base : 0x734f251000
+[00:19:31.069] LOG    size : 102400
+[00:19:31.069] LOG    path : /system/lib64/vendor.mediatek.hardware.mms@1.3.so
+[00:19:31.069] LOG    ========================================
+[00:19:31.070] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.070] LOG    
+[00:19:31.070] LOG    ========================================
+[00:19:31.070] LOG    [MODULE]
+[00:19:31.070] LOG    name : libion.so
+[00:19:31.070] LOG    base : 0x73606cb000
+[00:19:31.071] LOG    size : 20480
+[00:19:31.071] LOG    path : /system/lib64/libion.so
+[00:19:31.071] LOG    ========================================
+[00:19:31.071] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.071] LOG    
+[00:19:31.071] LOG    ========================================
+[00:19:31.072] LOG    [MODULE]
+[00:19:31.072] LOG    name : libdmabufheap.so
+[00:19:31.072] LOG    base : 0x73678aa000
+[00:19:31.072] LOG    size : 90112
+[00:19:31.072] LOG    path : /system/lib64/libdmabufheap.so
+[00:19:31.072] LOG    ========================================
+[00:19:31.073] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.073] LOG    
+[00:19:31.073] LOG    ========================================
+[00:19:31.073] LOG    [MODULE]
+[00:19:31.073] LOG    name : libJpegOal.so
+[00:19:31.073] LOG    base : 0x734c849000
+[00:19:31.073] LOG    size : 16384
+[00:19:31.074] LOG    path : /system/lib64/libJpegOal.so
+[00:19:31.074] LOG    ========================================
+[00:19:31.074] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.074] LOG    
+[00:19:31.074] LOG    ========================================
+[00:19:31.074] LOG    [MODULE]
+[00:19:31.075] LOG    name : libmediadrm.so
+[00:19:31.075] LOG    base : 0x7358c9f000
+[00:19:31.075] LOG    size : 372736
+[00:19:31.075] LOG    path : /system/lib64/libmediadrm.so
+[00:19:31.075] LOG    ========================================
+[00:19:31.075] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.076] LOG    
+[00:19:31.076] LOG    ========================================
+[00:19:31.076] LOG    [MODULE]
+[00:19:31.076] LOG    name : libmedia_omx.so
+[00:19:31.076] LOG    base : 0x7364f50000
+[00:19:31.076] LOG    size : 196608
+[00:19:31.077] LOG    path : /system/lib64/libmedia_omx.so
+[00:19:31.077] LOG    ========================================
+[00:19:31.077] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.077] LOG    
+[00:19:31.077] LOG    ========================================
+[00:19:31.077] LOG    [MODULE]
+[00:19:31.077] LOG    name : libmedia_jni_utils.so
+[00:19:31.078] LOG    base : 0x7353275000
+[00:19:31.078] LOG    size : 20480
+[00:19:31.078] LOG    path : /system/lib64/libmedia_jni_utils.so
+[00:19:31.078] LOG    ========================================
+[00:19:31.078] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.079] LOG    
+[00:19:31.079] LOG    ========================================
+[00:19:31.079] LOG    [MODULE]
+[00:19:31.079] LOG    name : libmediandk_utils.so
+[00:19:31.079] LOG    base : 0x7340ee0000
+[00:19:31.079] LOG    size : 16384
+[00:19:31.079] LOG    path : /system/lib64/libmediandk_utils.so
+[00:19:31.080] LOG    ========================================
+[00:19:31.080] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.080] LOG    
+[00:19:31.080] LOG    ========================================
+[00:19:31.080] LOG    [MODULE]
+[00:19:31.081] LOG    name : android.hardware.drm-V1-ndk.so
+[00:19:31.081] LOG    base : 0x734c811000
+[00:19:31.081] LOG    size : 188416
+[00:19:31.081] LOG    path : /system/lib64/android.hardware.drm-V1-ndk.so
+[00:19:31.081] LOG    ========================================
+[00:19:31.081] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.081] LOG    
+[00:19:31.082] LOG    ========================================
+[00:19:31.082] LOG    [MODULE]
+[00:19:31.082] LOG    name : libgralloc_extra_sys.so
+[00:19:31.082] LOG    base : 0x734cf9a000
+[00:19:31.082] LOG    size : 24576
+[00:19:31.082] LOG    path : /system/lib64/libgralloc_extra_sys.so
+[00:19:31.083] LOG    ========================================
+[00:19:31.083] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.083] LOG    
+[00:19:31.083] LOG    ========================================
+[00:19:31.083] LOG    [MODULE]
+[00:19:31.083] LOG    name : libbacktrace.so
+[00:19:31.084] LOG    base : 0x7341fc4000
+[00:19:31.084] LOG    size : 163840
+[00:19:31.084] LOG    path : /system/lib64/libbacktrace.so
+[00:19:31.084] LOG    ========================================
+[00:19:31.084] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.085] LOG    
+[00:19:31.085] LOG    ========================================
+[00:19:31.085] LOG    [MODULE]
+[00:19:31.085] LOG    name : android.hardware.configstore@1.0.so
+[00:19:31.085] LOG    base : 0x7353420000
+[00:19:31.085] LOG    size : 114688
+[00:19:31.085] LOG    path : /system/lib64/android.hardware.configstore@1.0.so
+[00:19:31.086] LOG    ========================================
+[00:19:31.086] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.086] LOG    
+[00:19:31.086] LOG    ========================================
+[00:19:31.086] LOG    [MODULE]
+[00:19:31.087] LOG    name : android.hardware.configstore-utils.so
+[00:19:31.087] LOG    base : 0x73423e6000
+[00:19:31.087] LOG    size : 12288
+[00:19:31.087] LOG    path : /system/lib64/android.hardware.configstore-utils.so
+[00:19:31.087] LOG    ========================================
+[00:19:31.087] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.088] LOG    
+[00:19:31.088] LOG    ========================================
+[00:19:31.088] LOG    [MODULE]
+[00:19:31.088] LOG    name : libSurfaceFlingerProp.so
+[00:19:31.088] LOG    base : 0x734f2e8000
+[00:19:31.088] LOG    size : 86016
+[00:19:31.089] LOG    path : /system/lib64/libSurfaceFlingerProp.so
+[00:19:31.089] LOG    ========================================
+[00:19:31.089] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.089] LOG    
+[00:19:31.089] LOG    ========================================
+[00:19:31.089] LOG    [MODULE]
+[00:19:31.090] LOG    name : libgpud_sys.so
+[00:19:31.090] LOG    base : 0x7364b49000
+[00:19:31.090] LOG    size : 131072
+[00:19:31.090] LOG    path : /system/lib64/libgpud_sys.so
+[00:19:31.090] LOG    ========================================
+[00:19:31.090] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.091] LOG    
+[00:19:31.091] LOG    ========================================
+[00:19:31.091] LOG    [MODULE]
+[00:19:31.091] LOG    name : libziparchive.so
+[00:19:31.091] LOG    base : 0x7364d88000
+[00:19:31.091] LOG    size : 81920
+[00:19:31.092] LOG    path : /system/lib64/libziparchive.so
+[00:19:31.092] LOG    ========================================
+[00:19:31.092] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.092] LOG    
+[00:19:31.092] LOG    ========================================
+[00:19:31.093] LOG    [MODULE]
+[00:19:31.093] LOG    name : android.system.suspend-V1-ndk.so
+[00:19:31.093] LOG    base : 0x7358e5f000
+[00:19:31.093] LOG    size : 45056
+[00:19:31.093] LOG    path : /system/lib64/android.system.suspend-V1-ndk.so
+[00:19:31.093] LOG    ========================================
+[00:19:31.094] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.094] LOG    
+[00:19:31.094] LOG    ========================================
+[00:19:31.094] LOG    [MODULE]
+[00:19:31.094] LOG    name : libpcre2.so
+[00:19:31.094] LOG    base : 0x734c98e000
+[00:19:31.095] LOG    size : 372736
+[00:19:31.095] LOG    path : /system/lib64/libpcre2.so
+[00:19:31.095] LOG    ========================================
+[00:19:31.095] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.095] LOG    
+[00:19:31.096] LOG    ========================================
+[00:19:31.096] LOG    [MODULE]
+[00:19:31.096] LOG    name : libpackagelistparser.so
+[00:19:31.096] LOG    base : 0x73435d2000
+[00:19:31.096] LOG    size : 12288
+[00:19:31.096] LOG    path : /system/lib64/libpackagelistparser.so
+[00:19:31.096] LOG    ========================================
+[00:19:31.097] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.097] LOG    
+[00:19:31.097] LOG    ========================================
+[00:19:31.097] LOG    [MODULE]
+[00:19:31.097] LOG    name : mediametricsservice-aidl-cpp.so
+[00:19:31.098] LOG    base : 0x734bea8000
+[00:19:31.098] LOG    size : 40960
+[00:19:31.098] LOG    path : /system/lib64/mediametricsservice-aidl-cpp.so
+[00:19:31.098] LOG    ========================================
+[00:19:31.098] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.098] LOG    
+[00:19:31.099] LOG    ========================================
+[00:19:31.099] LOG    [MODULE]
+[00:19:31.099] LOG    name : libaudioutilmtk.so
+[00:19:31.099] LOG    base : 0x734c069000
+[00:19:31.099] LOG    size : 77824
+[00:19:31.099] LOG    path : /system/lib64/libaudioutilmtk.so
+[00:19:31.100] LOG    ========================================
+[00:19:31.100] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.100] LOG    
+[00:19:31.100] LOG    ========================================
+[00:19:31.100] LOG    [MODULE]
+[00:19:31.101] LOG    name : audiopolicy-aidl-cpp.so
+[00:19:31.101] LOG    base : 0x733e052000
+[00:19:31.101] LOG    size : 274432
+[00:19:31.101] LOG    path : /system/lib64/audiopolicy-aidl-cpp.so
+[00:19:31.101] LOG    ========================================
+[00:19:31.102] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.102] LOG    
+[00:19:31.102] LOG    ========================================
+[00:19:31.102] LOG    [MODULE]
+[00:19:31.102] LOG    name : capture_state_listener-aidl-cpp.so
+[00:19:31.102] LOG    base : 0x7346f8d000
+[00:19:31.103] LOG    size : 40960
+[00:19:31.103] LOG    path : /system/lib64/capture_state_listener-aidl-cpp.so
+[00:19:31.103] LOG    ========================================
+[00:19:31.103] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.103] LOG    
+[00:19:31.103] LOG    ========================================
+[00:19:31.104] LOG    [MODULE]
+[00:19:31.104] LOG    name : libaudioutils.so
+[00:19:31.104] LOG    base : 0x734c650000
+[00:19:31.104] LOG    size : 172032
+[00:19:31.104] LOG    path : /system/lib64/libaudioutils.so
+[00:19:31.104] LOG    ========================================
+[00:19:31.105] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.105] LOG    
+[00:19:31.105] LOG    ========================================
+[00:19:31.105] LOG    [MODULE]
+[00:19:31.105] LOG    name : libmediautils.so
+[00:19:31.106] LOG    base : 0x734981d000
+[00:19:31.106] LOG    size : 368640
+[00:19:31.106] LOG    path : /system/lib64/libmediautils.so
+[00:19:31.106] LOG    ========================================
+[00:19:31.106] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.106] LOG    
+[00:19:31.107] LOG    ========================================
+[00:19:31.107] LOG    [MODULE]
+[00:19:31.107] LOG    name : libnblog.so
+[00:19:31.107] LOG    base : 0x734cc43000
+[00:19:31.107] LOG    size : 249856
+[00:19:31.107] LOG    path : /system/lib64/libnblog.so
+[00:19:31.108] LOG    ========================================
+[00:19:31.108] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.108] LOG    
+[00:19:31.108] LOG    ========================================
+[00:19:31.108] LOG    [MODULE]
+[00:19:31.109] LOG    name : libshmemcompat.so
+[00:19:31.109] LOG    base : 0x7358d73000
+[00:19:31.109] LOG    size : 16384
+[00:19:31.109] LOG    path : /system/lib64/libshmemcompat.so
+[00:19:31.109] LOG    ========================================
+[00:19:31.110] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.110] LOG    
+[00:19:31.110] LOG    ========================================
+[00:19:31.110] LOG    [MODULE]
+[00:19:31.110] LOG    name : packagemanager_aidl-cpp.so
+[00:19:31.111] LOG    base : 0x7342051000
+[00:19:31.112] LOG    size : 77824
+[00:19:31.112] LOG    path : /system/lib64/packagemanager_aidl-cpp.so
+[00:19:31.112] LOG    ========================================
+[00:19:31.112] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.113] LOG    
+[00:19:31.113] LOG    ========================================
+[00:19:31.113] LOG    [MODULE]
+[00:19:31.113] LOG    name : libcgrouprc.so
+[00:19:31.114] LOG    base : 0x7341e4f000
+[00:19:31.114] LOG    size : 20480
+[00:19:31.114] LOG    path : /system/lib64/libcgrouprc.so
+[00:19:31.115] LOG    ========================================
+[00:19:31.115] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.115] LOG    
+[00:19:31.115] LOG    ========================================
+[00:19:31.116] LOG    [MODULE]
+[00:19:31.116] LOG    name : libhidl-gen-utils.so
+[00:19:31.116] LOG    base : 0x736094f000
+[00:19:31.116] LOG    size : 57344
+[00:19:31.117] LOG    path : /system/lib64/libhidl-gen-utils.so
+[00:19:31.117] LOG    ========================================
+[00:19:31.117] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.117] LOG    
+[00:19:31.117] LOG    ========================================
+[00:19:31.118] LOG    [MODULE]
+[00:19:31.118] LOG    name : libtinyxml2.so
+[00:19:31.118] LOG    base : 0x7358a9a000
+[00:19:31.118] LOG    size : 118784
+[00:19:31.118] LOG    path : /system/lib64/libtinyxml2.so
+[00:19:31.119] LOG    ========================================
+[00:19:31.119] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.119] LOG    
+[00:19:31.119] LOG    ========================================
+[00:19:31.119] LOG    [MODULE]
+[00:19:31.120] LOG    name : libbpf_bcc.so
+[00:19:31.120] LOG    base : 0x7364c28000
+[00:19:31.120] LOG    size : 53248
+[00:19:31.120] LOG    path : /system/lib64/libbpf_bcc.so
+[00:19:31.120] LOG    ========================================
+[00:19:31.120] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.121] LOG    
+[00:19:31.121] LOG    ========================================
+[00:19:31.121] LOG    [MODULE]
+[00:19:31.121] LOG    name : libbpf_minimal.so
+[00:19:31.121] LOG    base : 0x736118b000
+[00:19:31.122] LOG    size : 57344
+[00:19:31.122] LOG    path : /system/lib64/libbpf_minimal.so
+[00:19:31.122] LOG    ========================================
+[00:19:31.122] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.122] LOG    
+[00:19:31.122] LOG    ========================================
+[00:19:31.123] LOG    [MODULE]
+[00:19:31.123] LOG    name : liboplusloadframe.so
+[00:19:31.123] LOG    base : 0x7346da0000
+[00:19:31.123] LOG    size : 45056
+[00:19:31.123] LOG    path : /system_ext/lib64/liboplusloadframe.so
+[00:19:31.123] LOG    ========================================
+[00:19:31.124] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.124] LOG    
+[00:19:31.124] LOG    ========================================
+[00:19:31.124] LOG    [MODULE]
+[00:19:31.124] LOG    name : liblzma.so
+[00:19:31.125] LOG    base : 0x734d142000
+[00:19:31.125] LOG    size : 245760
+[00:19:31.125] LOG    path : /apex/com.android.art/lib64/liblzma.so
+[00:19:31.125] LOG    ========================================
+[00:19:31.125] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.126] LOG    
+[00:19:31.126] LOG    ========================================
+[00:19:31.126] LOG    [MODULE]
+[00:19:31.126] LOG    name : android.hardware.media.omx@1.0.so
+[00:19:31.126] LOG    base : 0x734351d000
+[00:19:31.126] LOG    size : 393216
+[00:19:31.127] LOG    path : /system/lib64/android.hardware.media.omx@1.0.so
+[00:19:31.127] LOG    ========================================
+[00:19:31.127] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.127] LOG    
+[00:19:31.127] LOG    ========================================
+[00:19:31.128] LOG    [MODULE]
+[00:19:31.128] LOG    name : libstagefright_framecapture_utils.so
+[00:19:31.128] LOG    base : 0x7342080000
+[00:19:31.128] LOG    size : 196608
+[00:19:31.128] LOG    path : /system/lib64/libstagefright_framecapture_utils.so
+[00:19:31.129] LOG    ========================================
+[00:19:31.129] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.129] LOG    
+[00:19:31.129] LOG    ========================================
+[00:19:31.129] LOG    [MODULE]
+[00:19:31.129] LOG    name : libcodec2.so
+[00:19:31.130] LOG    base : 0x73579eb000
+[00:19:31.130] LOG    size : 12288
+[00:19:31.130] LOG    path : /system/lib64/libcodec2.so
+[00:19:31.130] LOG    ========================================
+[00:19:31.130] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.131] LOG    
+[00:19:31.131] LOG    ========================================
+[00:19:31.131] LOG    [MODULE]
+[00:19:31.131] LOG    name : libcodec2_vndk.so
+[00:19:31.131] LOG    base : 0x734d091000
+[00:19:31.132] LOG    size : 700416
+[00:19:31.132] LOG    path : /system/lib64/libcodec2_vndk.so
+[00:19:31.132] LOG    ========================================
+[00:19:31.132] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.132] LOG    
+[00:19:31.132] LOG    ========================================
+[00:19:31.133] LOG    [MODULE]
+[00:19:31.133] LOG    name : libmedia_omx_client.so
+[00:19:31.133] LOG    base : 0x7364c5a000
+[00:19:31.133] LOG    size : 24576
+[00:19:31.133] LOG    path : /system/lib64/libmedia_omx_client.so
+[00:19:31.134] LOG    ========================================
+[00:19:31.134] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.134] LOG    
+[00:19:31.134] LOG    ========================================
+[00:19:31.135] LOG    [MODULE]
+[00:19:31.135] LOG    name : libsfplugin_ccodec.so
+[00:19:31.135] LOG    base : 0x7340c03000
+[00:19:31.135] LOG    size : 835584
+[00:19:31.135] LOG    path : /system/lib64/libsfplugin_ccodec.so
+[00:19:31.136] LOG    ========================================
+[00:19:31.136] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.136] LOG    
+[00:19:31.136] LOG    ========================================
+[00:19:31.137] LOG    [MODULE]
+[00:19:31.137] LOG    name : libsfplugin_ccodec_utils.so
+[00:19:31.137] LOG    base : 0x734ce55000
+[00:19:31.137] LOG    size : 376832
+[00:19:31.137] LOG    path : /system/lib64/libsfplugin_ccodec_utils.so
+[00:19:31.138] LOG    ========================================
+[00:19:31.138] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.138] LOG    
+[00:19:31.138] LOG    ========================================
+[00:19:31.138] LOG    [MODULE]
+[00:19:31.139] LOG    name : libstagefright_codecbase.so
+[00:19:31.139] LOG    base : 0x734238c000
+[00:19:31.139] LOG    size : 45056
+[00:19:31.139] LOG    path : /system/lib64/libstagefright_codecbase.so
+[00:19:31.139] LOG    ========================================
+[00:19:31.139] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.140] LOG    
+[00:19:31.140] LOG    ========================================
+[00:19:31.140] LOG    [MODULE]
+[00:19:31.140] LOG    name : libstagefright_omx_utils.so
+[00:19:31.141] LOG    base : 0x7353443000
+[00:19:31.141] LOG    size : 24576
+[00:19:31.141] LOG    path : /system/lib64/libstagefright_omx_utils.so
+[00:19:31.141] LOG    ========================================
+[00:19:31.141] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.142] LOG    
+[00:19:31.142] LOG    ========================================
+[00:19:31.142] LOG    [MODULE]
+[00:19:31.142] LOG    name : libRScpp.so
+[00:19:31.143] LOG    base : 0x73610f9000
+[00:19:31.143] LOG    size : 290816
+[00:19:31.143] LOG    path : /system/lib64/libRScpp.so
+[00:19:31.144] LOG    ========================================
+[00:19:31.144] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.144] LOG    
+[00:19:31.144] LOG    ========================================
+[00:19:31.144] LOG    [MODULE]
+[00:19:31.145] LOG    name : libhidlallocatorutils.so
+[00:19:31.145] LOG    base : 0x7364bab000
+[00:19:31.145] LOG    size : 12288
+[00:19:31.146] LOG    path : /system/lib64/libhidlallocatorutils.so
+[00:19:31.146] LOG    ========================================
+[00:19:31.146] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.146] LOG    
+[00:19:31.147] LOG    ========================================
+[00:19:31.147] LOG    [MODULE]
+[00:19:31.147] LOG    name : libhidlmemory.so
+[00:19:31.147] LOG    base : 0x7340f19000
+[00:19:31.148] LOG    size : 28672
+[00:19:31.148] LOG    path : /system/lib64/libhidlmemory.so
+[00:19:31.148] LOG    ========================================
+[00:19:31.149] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.149] LOG    
+[00:19:31.149] LOG    ========================================
+[00:19:31.149] LOG    [MODULE]
+[00:19:31.149] LOG    name : android.hidl.allocator@1.0.so
+[00:19:31.150] LOG    base : 0x7346f06000
+[00:19:31.150] LOG    size : 81920
+[00:19:31.150] LOG    path : /system/lib64/android.hidl.allocator@1.0.so
+[00:19:31.151] LOG    ========================================
+[00:19:31.151] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.151] LOG    
+[00:19:31.151] LOG    ========================================
+[00:19:31.151] LOG    [MODULE]
+[00:19:31.152] LOG    name : android.hardware.cas.native@1.0.so
+[00:19:31.152] LOG    base : 0x7346f66000
+[00:19:31.152] LOG    size : 90112
+[00:19:31.153] LOG    path : /system/lib64/android.hardware.cas.native@1.0.so
+[00:19:31.153] LOG    ========================================
+[00:19:31.153] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.153] LOG    
+[00:19:31.154] LOG    ========================================
+[00:19:31.154] LOG    [MODULE]
+[00:19:31.154] LOG    name : android.hardware.drm@1.0.so
+[00:19:31.154] LOG    base : 0x73533a0000
+[00:19:31.155] LOG    size : 364544
+[00:19:31.155] LOG    path : /system/lib64/android.hardware.drm@1.0.so
+[00:19:31.155] LOG    ========================================
+[00:19:31.155] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.156] LOG    
+[00:19:31.156] LOG    ========================================
+[00:19:31.156] LOG    [MODULE]
+[00:19:31.157] LOG    name : liboplusmmdebug.so
+[00:19:31.157] LOG    base : 0x734f322000
+[00:19:31.157] LOG    size : 16384
+[00:19:31.157] LOG    path : /system/lib64/liboplusmmdebug.so
+[00:19:31.158] LOG    ========================================
+[00:19:31.158] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.158] LOG    
+[00:19:31.158] LOG    ========================================
+[00:19:31.159] LOG    [MODULE]
+[00:19:31.159] LOG    name : android.hardware.common-V2-ndk.so
+[00:19:31.159] LOG    base : 0x734122a000
+[00:19:31.159] LOG    size : 24576
+[00:19:31.160] LOG    path : /system/lib64/android.hardware.common-V2-ndk.so
+[00:19:31.160] LOG    ========================================
+[00:19:31.160] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.160] LOG    
+[00:19:31.161] LOG    ========================================
+[00:19:31.161] LOG    [MODULE]
+[00:19:31.161] LOG    name : android.hardware.media@1.0.so
+[00:19:31.162] LOG    base : 0x735791f000
+[00:19:31.162] LOG    size : 12288
+[00:19:31.162] LOG    path : /system/lib64/android.hardware.media@1.0.so
+[00:19:31.162] LOG    ========================================
+[00:19:31.163] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.163] LOG    
+[00:19:31.163] LOG    ========================================
+[00:19:31.163] LOG    [MODULE]
+[00:19:31.164] LOG    name : android.hidl.token@1.0.so
+[00:19:31.164] LOG    base : 0x73591d5000
+[00:19:31.164] LOG    size : 86016
+[00:19:31.164] LOG    path : /system/lib64/android.hidl.token@1.0.so
+[00:19:31.165] LOG    ========================================
+[00:19:31.165] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.165] LOG    
+[00:19:31.166] LOG    ========================================
+[00:19:31.166] LOG    [MODULE]
+[00:19:31.166] LOG    name : libjpeg-alpha-oal.so
+[00:19:31.166] LOG    base : 0x7343262000
+[00:19:31.166] LOG    size : 32768
+[00:19:31.167] LOG    path : /system/lib64/libjpeg-alpha-oal.so
+[00:19:31.167] LOG    ========================================
+[00:19:31.167] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.168] LOG    
+[00:19:31.168] LOG    ========================================
+[00:19:31.168] LOG    [MODULE]
+[00:19:31.168] LOG    name : libmediadrmmetrics_lite.so
+[00:19:31.169] LOG    base : 0x734ca16000
+[00:19:31.169] LOG    size : 122880
+[00:19:31.169] LOG    path : /system/lib64/libmediadrmmetrics_lite.so
+[00:19:31.169] LOG    ========================================
+[00:19:31.170] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.170] LOG    
+[00:19:31.170] LOG    ========================================
+[00:19:31.171] LOG    [MODULE]
+[00:19:31.171] LOG    name : android.hardware.drm@1.1.so
+[00:19:31.171] LOG    base : 0x7347bc0000
+[00:19:31.171] LOG    size : 241664
+[00:19:31.172] LOG    path : /system/lib64/android.hardware.drm@1.1.so
+[00:19:31.172] LOG    ========================================
+[00:19:31.172] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.173] LOG    
+[00:19:31.173] LOG    ========================================
+[00:19:31.173] LOG    [MODULE]
+[00:19:31.173] LOG    name : android.hardware.drm@1.2.so
+[00:19:31.174] LOG    base : 0x7340f4d000
+[00:19:31.174] LOG    size : 368640
+[00:19:31.174] LOG    path : /system/lib64/android.hardware.drm@1.2.so
+[00:19:31.175] LOG    ========================================
+[00:19:31.175] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.175] LOG    
+[00:19:31.175] LOG    ========================================
+[00:19:31.175] LOG    [MODULE]
+[00:19:31.176] LOG    name : android.hardware.drm@1.3.so
+[00:19:31.176] LOG    base : 0x734d1dc000
+[00:19:31.176] LOG    size : 143360
+[00:19:31.177] LOG    path : /system/lib64/android.hardware.drm@1.3.so
+[00:19:31.177] LOG    ========================================
+[00:19:31.177] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.177] LOG    
+[00:19:31.178] LOG    ========================================
+[00:19:31.178] LOG    [MODULE]
+[00:19:31.178] LOG    name : android.hardware.drm@1.4.so
+[00:19:31.179] LOG    base : 0x735cc4c000
+[00:19:31.179] LOG    size : 327680
+[00:19:31.179] LOG    path : /system/lib64/android.hardware.drm@1.4.so
+[00:19:31.179] LOG    ========================================
+[00:19:31.180] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.180] LOG    
+[00:19:31.180] LOG    ========================================
+[00:19:31.180] LOG    [MODULE]
+[00:19:31.181] LOG    name : libsf_cpupolicy.so
+[00:19:31.181] LOG    base : 0x734cb11000
+[00:19:31.181] LOG    size : 57344
+[00:19:31.181] LOG    path : /system/lib64/libsf_cpupolicy.so
+[00:19:31.182] LOG    ========================================
+[00:19:31.182] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.182] LOG    
+[00:19:31.183] LOG    ========================================
+[00:19:31.183] LOG    [MODULE]
+[00:19:31.183] LOG    name : libged_sys.so
+[00:19:31.183] LOG    base : 0x7364d1b000
+[00:19:31.184] LOG    size : 65536
+[00:19:31.184] LOG    path : /system/lib64/libged_sys.so
+[00:19:31.184] LOG    ========================================
+[00:19:31.185] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.185] LOG    
+[00:19:31.185] LOG    ========================================
+[00:19:31.185] LOG    [MODULE]
+[00:19:31.185] LOG    name : libutilscallstack.so
+[00:19:31.186] LOG    base : 0x734caf0000
+[00:19:31.186] LOG    size : 24576
+[00:19:31.186] LOG    path : /system/lib64/libutilscallstack.so
+[00:19:31.187] LOG    ========================================
+[00:19:31.187] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.187] LOG    
+[00:19:31.187] LOG    ========================================
+[00:19:31.188] LOG    [MODULE]
+[00:19:31.188] LOG    name : libunwindstack.so
+[00:19:31.188] LOG    base : 0x7364e23000
+[00:19:31.189] LOG    size : 581632
+[00:19:31.189] LOG    path : /system/lib64/libunwindstack.so
+[00:19:31.189] LOG    ========================================
+[00:19:31.189] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.190] LOG    
+[00:19:31.190] LOG    ========================================
+[00:19:31.190] LOG    [MODULE]
+[00:19:31.191] LOG    name : android.hardware.configstore@1.1.so
+[00:19:31.191] LOG    base : 0x7340d27000
+[00:19:31.191] LOG    size : 98304
+[00:19:31.191] LOG    path : /system/lib64/android.hardware.configstore@1.1.so
+[00:19:31.192] LOG    ========================================
+[00:19:31.192] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.192] LOG    
+[00:19:31.193] LOG    ========================================
+[00:19:31.193] LOG    [MODULE]
+[00:19:31.193] LOG    name : libspeexresampler.so
+[00:19:31.193] LOG    base : 0x73611f6000
+[00:19:31.194] LOG    size : 28672
+[00:19:31.194] LOG    path : /system/lib64/libspeexresampler.so
+[00:19:31.195] LOG    ========================================
+[00:19:31.195] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.195] LOG    
+[00:19:31.195] LOG    ========================================
+[00:19:31.196] LOG    [MODULE]
+[00:19:31.196] LOG    name : libshmemutil.so
+[00:19:31.196] LOG    base : 0x734d1bb000
+[00:19:31.197] LOG    size : 16384
+[00:19:31.197] LOG    path : /system/lib64/libshmemutil.so
+[00:19:31.197] LOG    ========================================
+[00:19:31.197] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.198] LOG    
+[00:19:31.198] LOG    ========================================
+[00:19:31.199] LOG    [MODULE]
+[00:19:31.199] LOG    name : android.hardware.media.bufferpool@2.0.so
+[00:19:31.199] LOG    base : 0x73433c2000
+[00:19:31.199] LOG    size : 196608
+[00:19:31.200] LOG    path : /system/lib64/android.hardware.media.bufferpool@2.0.so
+[00:19:31.200] LOG    ========================================
+[00:19:31.200] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.201] LOG    
+[00:19:31.201] LOG    ========================================
+[00:19:31.201] LOG    [MODULE]
+[00:19:31.202] LOG    name : libfmq.so
+[00:19:31.202] LOG    base : 0x7357afb000
+[00:19:31.202] LOG    size : 20480
+[00:19:31.202] LOG    path : /system/lib64/libfmq.so
+[00:19:31.203] LOG    ========================================
+[00:19:31.203] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.203] LOG    
+[00:19:31.204] LOG    ========================================
+[00:19:31.204] LOG    [MODULE]
+[00:19:31.204] LOG    name : libstagefright_bufferpool@2.0.1.so
+[00:19:31.204] LOG    base : 0x73534c2000
+[00:19:31.205] LOG    size : 184320
+[00:19:31.205] LOG    path : /system/lib64/libstagefright_bufferpool@2.0.1.so
+[00:19:31.205] LOG    ========================================
+[00:19:31.206] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.206] LOG    
+[00:19:31.206] LOG    ========================================
+[00:19:31.206] LOG    [MODULE]
+[00:19:31.207] LOG    name : android.hardware.media.c2@1.0.so
+[00:19:31.207] LOG    base : 0x7358c01000
+[00:19:31.207] LOG    size : 520192
+[00:19:31.208] LOG    path : /system/lib64/android.hardware.media.c2@1.0.so
+[00:19:31.208] LOG    ========================================
+[00:19:31.208] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.209] LOG    
+[00:19:31.209] LOG    ========================================
+[00:19:31.209] LOG    [MODULE]
+[00:19:31.209] LOG    name : libcodec2_client.so
+[00:19:31.210] LOG    base : 0x7358a54000
+[00:19:31.210] LOG    size : 180224
+[00:19:31.210] LOG    path : /system/lib64/libcodec2_client.so
+[00:19:31.211] LOG    ========================================
+[00:19:31.211] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.211] LOG    
+[00:19:31.212] LOG    ========================================
+[00:19:31.212] LOG    [MODULE]
+[00:19:31.212] LOG    name : libstagefright_bufferqueue_helper.so
+[00:19:31.213] LOG    base : 0x7349fca000
+[00:19:31.213] LOG    size : 94208
+[00:19:31.213] LOG    path : /system/lib64/libstagefright_bufferqueue_helper.so
+[00:19:31.213] LOG    ========================================
+[00:19:31.214] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.214] LOG    
+[00:19:31.214] LOG    ========================================
+[00:19:31.215] LOG    [MODULE]
+[00:19:31.215] LOG    name : libstagefright_omx.so
+[00:19:31.215] LOG    base : 0x734f369000
+[00:19:31.215] LOG    size : 344064
+[00:19:31.216] LOG    path : /system/lib64/libstagefright_omx.so
+[00:19:31.216] LOG    ========================================
+[00:19:31.216] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.217] LOG    
+[00:19:31.217] LOG    ========================================
+[00:19:31.217] LOG    [MODULE]
+[00:19:31.218] LOG    name : libstagefright_surface_utils.so
+[00:19:31.218] LOG    base : 0x735cd2a000
+[00:19:31.218] LOG    size : 24576
+[00:19:31.218] LOG    path : /system/lib64/libstagefright_surface_utils.so
+[00:19:31.219] LOG    ========================================
+[00:19:31.219] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.219] LOG    
+[00:19:31.220] LOG    ========================================
+[00:19:31.220] LOG    [MODULE]
+[00:19:31.220] LOG    name : libstagefright_xmlparser.so
+[00:19:31.220] LOG    base : 0x7358dd6000
+[00:19:31.221] LOG    size : 102400
+[00:19:31.221] LOG    path : /system/lib64/libstagefright_xmlparser.so
+[00:19:31.221] LOG    ========================================
+[00:19:31.222] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.222] LOG    
+[00:19:31.222] LOG    ========================================
+[00:19:31.223] LOG    [MODULE]
+[00:19:31.223] LOG    name : android.hidl.memory@1.0.so
+[00:19:31.223] LOG    base : 0x7353498000
+[00:19:31.224] LOG    size : 122880
+[00:19:31.224] LOG    path : /system/lib64/android.hidl.memory@1.0.so
+[00:19:31.224] LOG    ========================================
+[00:19:31.224] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.225] LOG    
+[00:19:31.225] LOG    ========================================
+[00:19:31.225] LOG    [MODULE]
+[00:19:31.226] LOG    name : android.hidl.memory.token@1.0.so
+[00:19:31.226] LOG    base : 0x7346c5d000
+[00:19:31.226] LOG    size : 77824
+[00:19:31.227] LOG    path : /system/lib64/android.hidl.memory.token@1.0.so
+[00:19:31.227] LOG    ========================================
+[00:19:31.227] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.227] LOG    
+[00:19:31.228] LOG    ========================================
+[00:19:31.228] LOG    [MODULE]
+[00:19:31.228] LOG    name : android.hardware.cas@1.0.so
+[00:19:31.229] LOG    base : 0x734cfc0000
+[00:19:31.229] LOG    size : 229376
+[00:19:31.229] LOG    path : /system/lib64/android.hardware.cas@1.0.so
+[00:19:31.229] LOG    ========================================
+[00:19:31.230] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.230] LOG    
+[00:19:31.230] LOG    ========================================
+[00:19:31.231] LOG    [MODULE]
+[00:19:31.231] LOG    name : liblzma.so
+[00:19:31.231] LOG    base : 0x7346d00000
+[00:19:31.231] LOG    size : 208896
+[00:19:31.232] LOG    path : /system/lib64/liblzma.so
+[00:19:31.232] LOG    ========================================
+[00:19:31.233] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.233] LOG    
+[00:19:31.233] LOG    ========================================
+[00:19:31.233] LOG    [MODULE]
+[00:19:31.234] LOG    name : android.hidl.safe_union@1.0.so
+[00:19:31.234] LOG    base : 0x7343653000
+[00:19:31.234] LOG    size : 12288
+[00:19:31.235] LOG    path : /system/lib64/android.hidl.safe_union@1.0.so
+[00:19:31.235] LOG    ========================================
+[00:19:31.235] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.236] LOG    
+[00:19:31.236] LOG    ========================================
+[00:19:31.236] LOG    [MODULE]
+[00:19:31.236] LOG    name : android.hardware.media.c2@1.1.so
+[00:19:31.237] LOG    base : 0x734334e000
+[00:19:31.237] LOG    size : 176128
+[00:19:31.237] LOG    path : /system/lib64/android.hardware.media.c2@1.1.so
+[00:19:31.238] LOG    ========================================
+[00:19:31.238] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.238] LOG    
+[00:19:31.238] LOG    ========================================
+[00:19:31.239] LOG    [MODULE]
+[00:19:31.239] LOG    name : android.hardware.media.c2@1.2.so
+[00:19:31.239] LOG    base : 0x7367943000
+[00:19:31.240] LOG    size : 188416
+[00:19:31.240] LOG    path : /system/lib64/android.hardware.media.c2@1.2.so
+[00:19:31.240] LOG    ========================================
+[00:19:31.241] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.241] LOG    
+[00:19:31.241] LOG    ========================================
+[00:19:31.242] LOG    [MODULE]
+[00:19:31.242] LOG    name : libcodec2_hidl_client@1.0.so
+[00:19:31.242] LOG    base : 0x734ca8a000
+[00:19:31.242] LOG    size : 110592
+[00:19:31.243] LOG    path : /system/lib64/libcodec2_hidl_client@1.0.so
+[00:19:31.243] LOG    ========================================
+[00:19:31.243] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.244] LOG    
+[00:19:31.244] LOG    ========================================
+[00:19:31.244] LOG    [MODULE]
+[00:19:31.245] LOG    name : libcodec2_hidl_client@1.1.so
+[00:19:31.245] LOG    base : 0x734cc17000
+[00:19:31.245] LOG    size : 16384
+[00:19:31.245] LOG    path : /system/lib64/libcodec2_hidl_client@1.1.so
+[00:19:31.246] LOG    ========================================
+[00:19:31.246] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.247] LOG    
+[00:19:31.247] LOG    ========================================
+[00:19:31.247] LOG    [MODULE]
+[00:19:31.247] LOG    name : libcodec2_hidl_client@1.2.so
+[00:19:31.248] LOG    base : 0x734cced000
+[00:19:31.248] LOG    size : 16384
+[00:19:31.248] LOG    path : /system/lib64/libcodec2_hidl_client@1.2.so
+[00:19:31.249] LOG    ========================================
+[00:19:31.249] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.249] LOG    
+[00:19:31.250] LOG    ========================================
+[00:19:31.250] LOG    [MODULE]
+[00:19:31.250] LOG    name : libclang_rt.ubsan_standalone-aarch64-android.so
+[00:19:31.251] LOG    base : 0x73420da000
+[00:19:31.251] LOG    size : 2596864
+[00:19:31.251] LOG    path : /system/lib64/libclang_rt.ubsan_standalone-aarch64-android.so
+[00:19:31.251] LOG    ========================================
+[00:19:31.252] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.252] LOG    
+[00:19:31.253] LOG    ========================================
+[00:19:31.253] LOG    [MODULE]
+[00:19:31.253] LOG    name : libeglextimpl.so
+[00:19:31.253] LOG    base : 0x7368369000
+[00:19:31.254] LOG    size : 20480
+[00:19:31.254] LOG    path : /system_ext/lib64/libeglextimpl.so
+[00:19:31.254] LOG    ========================================
+[00:19:31.255] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.255] LOG    
+[00:19:31.255] LOG    ========================================
+[00:19:31.256] LOG    [MODULE]
+[00:19:31.256] LOG    name : libged_kpi.so
+[00:19:31.256] LOG    base : 0x736831f000
+[00:19:31.257] LOG    size : 12288
+[00:19:31.257] LOG    path : /system/lib64/libged_kpi.so
+[00:19:31.257] LOG    ========================================
+[00:19:31.257] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.258] LOG    
+[00:19:31.258] LOG    ========================================
+[00:19:31.259] LOG    [MODULE]
+[00:19:31.259] LOG    name : libguiextimpl.so
+[00:19:31.259] LOG    base : 0x7368248000
+[00:19:31.259] LOG    size : 32768
+[00:19:31.260] LOG    path : /system_ext/lib64/libguiextimpl.so
+[00:19:31.260] LOG    ========================================
+[00:19:31.260] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.261] LOG    
+[00:19:31.261] LOG    ========================================
+[00:19:31.261] LOG    [MODULE]
+[00:19:31.262] LOG    name : libaudioclientextimpl.so
+[00:19:31.262] LOG    base : 0x73680df000
+[00:19:31.262] LOG    size : 61440
+[00:19:31.263] LOG    path : /system_ext/lib64/libaudioclientextimpl.so
+[00:19:31.263] LOG    ========================================
+[00:19:31.263] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.264] LOG    
+[00:19:31.264] LOG    ========================================
+[00:19:31.264] LOG    [MODULE]
+[00:19:31.265] LOG    name : libiatlasservice.so
+[00:19:31.265] LOG    base : 0x73681b2000
+[00:19:31.265] LOG    size : 53248
+[00:19:31.266] LOG    path : /system_ext/lib64/libiatlasservice.so
+[00:19:31.266] LOG    ========================================
+[00:19:31.266] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.266] LOG    
+[00:19:31.267] LOG    ========================================
+[00:19:31.267] LOG    [MODULE]
+[00:19:31.267] LOG    name : libimmlistservice.so
+[00:19:31.268] LOG    base : 0x7367fd0000
+[00:19:31.268] LOG    size : 49152
+[00:19:31.268] LOG    path : /system_ext/lib64/libimmlistservice.so
+[00:19:31.269] LOG    ========================================
+[00:19:31.269] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.269] LOG    
+[00:19:31.270] LOG    ========================================
+[00:19:31.270] LOG    [MODULE]
+[00:19:31.270] LOG    name : liboplusaudioDump.so
+[00:19:31.270] LOG    base : 0x7367faa000
+[00:19:31.271] LOG    size : 24576
+[00:19:31.271] LOG    path : /system_ext/lib64/liboplusaudioDump.so
+[00:19:31.272] LOG    ========================================
+[00:19:31.272] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.272] LOG    
+[00:19:31.272] LOG    ========================================
+[00:19:31.273] LOG    [MODULE]
+[00:19:31.273] LOG    name : libbsproxy.so
+[00:19:31.274] LOG    base : 0x7368085000
+[00:19:31.274] LOG    size : 53248
+[00:19:31.274] LOG    path : /system_ext/lib64/libbsproxy.so
+[00:19:31.274] LOG    ========================================
+[00:19:31.275] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.275] LOG    
+[00:19:31.275] LOG    ========================================
+[00:19:31.276] LOG    [MODULE]
+[00:19:31.276] LOG    name : libvibrator.so
+[00:19:31.276] LOG    base : 0x736815b000
+[00:19:31.276] LOG    size : 49152
+[00:19:31.277] LOG    path : /system/lib64/libvibrator.so
+[00:19:31.277] LOG    ========================================
+[00:19:31.278] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.278] LOG    
+[00:19:31.278] LOG    ========================================
+[00:19:31.278] LOG    [MODULE]
+[00:19:31.279] LOG    name : libmmlistparser.so
+[00:19:31.279] LOG    base : 0x736811e000
+[00:19:31.279] LOG    size : 24576
+[00:19:31.280] LOG    path : /system_ext/lib64/libmmlistparser.so
+[00:19:31.280] LOG    ========================================
+[00:19:31.280] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.281] LOG    
+[00:19:31.281] LOG    ========================================
+[00:19:31.281] LOG    [MODULE]
+[00:19:31.282] LOG    name : liboplusavenhancements.so
+[00:19:31.282] LOG    base : 0x7367ac4000
+[00:19:31.282] LOG    size : 28672
+[00:19:31.283] LOG    path : /system_ext/lib64/liboplusavenhancements.so
+[00:19:31.283] LOG    ========================================
+[00:19:31.283] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.284] LOG    
+[00:19:31.284] LOG    ========================================
+[00:19:31.284] LOG    [MODULE]
+[00:19:31.285] LOG    name : liboplusstagefright.so
+[00:19:31.285] LOG    base : 0x72bab3c000
+[00:19:31.285] LOG    size : 479232
+[00:19:31.286] LOG    path : /system_ext/lib64/liboplusstagefright.so
+[00:19:31.286] LOG    ========================================
+[00:19:31.286] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.287] LOG    
+[00:19:31.287] LOG    ========================================
+[00:19:31.287] LOG    [MODULE]
+[00:19:31.287] LOG    name : libmediaplayerservice.so
+[00:19:31.288] LOG    base : 0x72bbe45000
+[00:19:31.288] LOG    size : 1601536
+[00:19:31.289] LOG    path : /system/lib64/libmediaplayerservice.so
+[00:19:31.289] LOG    ========================================
+[00:19:31.289] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.289] LOG    
+[00:19:31.290] LOG    ========================================
+[00:19:31.290] LOG    [MODULE]
+[00:19:31.291] LOG    name : liboplusmediaplayerservice.so
+[00:19:31.291] LOG    base : 0x7367e67000
+[00:19:31.291] LOG    size : 102400
+[00:19:31.291] LOG    path : /system_ext/lib64/liboplusmediaplayerservice.so
+[00:19:31.292] LOG    ========================================
+[00:19:31.292] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.293] LOG    
+[00:19:31.293] LOG    ========================================
+[00:19:31.293] LOG    [MODULE]
+[00:19:31.294] LOG    name : liboplusutils.so
+[00:19:31.294] LOG    base : 0x7367a07000
+[00:19:31.294] LOG    size : 98304
+[00:19:31.294] LOG    path : /system_ext/lib64/liboplusutils.so
+[00:19:31.295] LOG    ========================================
+[00:19:31.295] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.296] LOG    
+[00:19:31.296] LOG    ========================================
+[00:19:31.296] LOG    [MODULE]
+[00:19:31.296] LOG    name : liboplussfplugin_ccodec.so
+[00:19:31.297] LOG    base : 0x7367f53000
+[00:19:31.297] LOG    size : 49152
+[00:19:31.297] LOG    path : /system_ext/lib64/liboplussfplugin_ccodec.so
+[00:19:31.298] LOG    ========================================
+[00:19:31.298] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.299] LOG    
+[00:19:31.299] LOG    ========================================
+[00:19:31.299] LOG    [MODULE]
+[00:19:31.299] LOG    name : liboplusavenhancebase.so
+[00:19:31.300] LOG    base : 0x72baa72000
+[00:19:31.300] LOG    size : 24576
+[00:19:31.301] LOG    path : /system_ext/lib64/liboplusavenhancebase.so
+[00:19:31.301] LOG    ========================================
+[00:19:31.301] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.301] LOG    
+[00:19:31.302] LOG    ========================================
+[00:19:31.302] LOG    [MODULE]
+[00:19:31.302] LOG    name : liboplusmultimediaconfig.so
+[00:19:31.303] LOG    base : 0x7367dce000
+[00:19:31.303] LOG    size : 24576
+[00:19:31.303] LOG    path : /system_ext/lib64/liboplusmultimediaconfig.so
+[00:19:31.304] LOG    ========================================
+[00:19:31.304] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.304] LOG    
+[00:19:31.305] LOG    ========================================
+[00:19:31.305] LOG    [MODULE]
+[00:19:31.305] LOG    name : libatlasservice.so
+[00:19:31.306] LOG    base : 0x72bc44d000
+[00:19:31.306] LOG    size : 147456
+[00:19:31.306] LOG    path : /system_ext/lib64/libatlasservice.so
+[00:19:31.307] LOG    ========================================
+[00:19:31.307] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.307] LOG    
+[00:19:31.308] LOG    ========================================
+[00:19:31.308] LOG    [MODULE]
+[00:19:31.308] LOG    name : libstagefright_wfd_mtk.so
+[00:19:31.309] LOG    base : 0x7367cc0000
+[00:19:31.309] LOG    size : 475136
+[00:19:31.309] LOG    path : /system/lib64/libstagefright_wfd_mtk.so
+[00:19:31.310] LOG    ========================================
+[00:19:31.310] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.310] LOG    
+[00:19:31.311] LOG    ========================================
+[00:19:31.311] LOG    [MODULE]
+[00:19:31.311] LOG    name : libactivitymanager_aidl.so
+[00:19:31.312] LOG    base : 0x72baad2000
+[00:19:31.312] LOG    size : 45056
+[00:19:31.312] LOG    path : /system/lib64/libactivitymanager_aidl.so
+[00:19:31.313] LOG    ========================================
+[00:19:31.313] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.314] LOG    
+[00:19:31.314] LOG    ========================================
+[00:19:31.314] LOG    [MODULE]
+[00:19:31.314] LOG    name : libdrmframework.so
+[00:19:31.315] LOG    base : 0x7367f02000
+[00:19:31.315] LOG    size : 53248
+[00:19:31.316] LOG    path : /system/lib64/libdrmframework.so
+[00:19:31.316] LOG    ========================================
+[00:19:31.316] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.316] LOG    
+[00:19:31.317] LOG    ========================================
+[00:19:31.317] LOG    [MODULE]
+[00:19:31.317] LOG    name : libpowermanager.so
+[00:19:31.318] LOG    base : 0x7367c47000
+[00:19:31.318] LOG    size : 204800
+[00:19:31.319] LOG    path : /system/lib64/libpowermanager.so
+[00:19:31.319] LOG    ========================================
+[00:19:31.319] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.319] LOG    
+[00:19:31.320] LOG    ========================================
+[00:19:31.320] LOG    [MODULE]
+[00:19:31.321] LOG    name : libstagefright_httplive.so
+[00:19:31.321] LOG    base : 0x733e167000
+[00:19:31.321] LOG    size : 540672
+[00:19:31.321] LOG    path : /system/lib64/libstagefright_httplive.so
+[00:19:31.322] LOG    ========================================
+[00:19:31.322] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.322] LOG    
+[00:19:31.323] LOG    ========================================
+[00:19:31.323] LOG    [MODULE]
+[00:19:31.324] LOG    name : liboplus_multimedia_kernel_event.so
+[00:19:31.324] LOG    base : 0x7367e2f000
+[00:19:31.324] LOG    size : 16384
+[00:19:31.324] LOG    path : /system_ext/lib64/liboplus_multimedia_kernel_event.so
+[00:19:31.325] LOG    ========================================
+[00:19:31.325] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.326] LOG    
+[00:19:31.326] LOG    ========================================
+[00:19:31.326] LOG    [MODULE]
+[00:19:31.326] LOG    name : libolc.so
+[00:19:31.327] LOG    base : 0x72baa96000
+[00:19:31.327] LOG    size : 28672
+[00:19:31.327] LOG    path : /system_ext/lib64/libolc.so
+[00:19:31.328] LOG    ========================================
+[00:19:31.328] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.329] LOG    
+[00:19:31.329] LOG    ========================================
+[00:19:31.329] LOG    [MODULE]
+[00:19:31.329] LOG    name : libdrmframeworkcommon.so
+[00:19:31.330] LOG    base : 0x7367c1c000
+[00:19:31.330] LOG    size : 114688
+[00:19:31.331] LOG    path : /system/lib64/libdrmframeworkcommon.so
+[00:19:31.331] LOG    ========================================
+[00:19:31.331] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.332] LOG    
+[00:19:31.332] LOG    ========================================
+[00:19:31.332] LOG    [MODULE]
+[00:19:31.333] LOG    name : android.hardware.power@1.0.so
+[00:19:31.333] LOG    base : 0x72bc496000
+[00:19:31.333] LOG    size : 86016
+[00:19:31.334] LOG    path : /system/lib64/android.hardware.power@1.0.so
+[00:19:31.334] LOG    ========================================
+[00:19:31.334] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.335] LOG    
+[00:19:31.335] LOG    ========================================
+[00:19:31.336] LOG    [MODULE]
+[00:19:31.336] LOG    name : android.hardware.power@1.1.so
+[00:19:31.336] LOG    base : 0x733e10f000
+[00:19:31.337] LOG    size : 90112
+[00:19:31.337] LOG    path : /system/lib64/android.hardware.power@1.1.so
+[00:19:31.338] LOG    ========================================
+[00:19:31.338] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.338] LOG    
+[00:19:31.339] LOG    ========================================
+[00:19:31.339] LOG    [MODULE]
+[00:19:31.339] LOG    name : android.hardware.power-V3-cpp.so
+[00:19:31.340] LOG    base : 0x7367be6000
+[00:19:31.340] LOG    size : 61440
+[00:19:31.340] LOG    path : /system/lib64/android.hardware.power-V3-cpp.so
+[00:19:31.341] LOG    ========================================
+[00:19:31.341] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.341] LOG    
+[00:19:31.342] LOG    ========================================
+[00:19:31.342] LOG    [MODULE]
+[00:19:31.342] LOG    name : libskjpegencoderextimpl.so
+[00:19:31.343] LOG    base : 0x72ba9b0000
+[00:19:31.343] LOG    size : 270336
+[00:19:31.343] LOG    path : /system_ext/lib64/libskjpegencoderextimpl.so
+[00:19:31.344] LOG    ========================================
+[00:19:31.344] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.345] LOG    
+[00:19:31.345] LOG    ========================================
+[00:19:31.345] LOG    [MODULE]
+[00:19:31.346] LOG    name : liboplus_imageprocessing.so
+[00:19:31.346] LOG    base : 0x72baa36000
+[00:19:31.346] LOG    size : 24576
+[00:19:31.347] LOG    path : /system_ext/lib64/liboplus_imageprocessing.so
+[00:19:31.347] LOG    ========================================
+[00:19:31.347] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.348] LOG    
+[00:19:31.348] LOG    ========================================
+[00:19:31.348] LOG    [MODULE]
+[00:19:31.349] LOG    name : libsensorextimpl.so
+[00:19:31.349] LOG    base : 0x72ba95d000
+[00:19:31.349] LOG    size : 20480
+[00:19:31.350] LOG    path : /system_ext/lib64/libsensorextimpl.so
+[00:19:31.350] LOG    ========================================
+[00:19:31.350] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.351] LOG    
+[00:19:31.351] LOG    ========================================
+[00:19:31.352] LOG    [MODULE]
+[00:19:31.352] LOG    name : libinputextensionsimpl.so
+[00:19:31.352] LOG    base : 0x72ba80b000
+[00:19:31.352] LOG    size : 49152
+[00:19:31.353] LOG    path : /system_ext/lib64/libinputextensionsimpl.so
+[00:19:31.353] LOG    ========================================
+[00:19:31.354] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.354] LOG    
+[00:19:31.354] LOG    ========================================
+[00:19:31.354] LOG    [MODULE]
+[00:19:31.355] LOG    name : libstatslog.so
+[00:19:31.355] LOG    base : 0x72ba890000
+[00:19:31.356] LOG    size : 155648
+[00:19:31.356] LOG    path : /system/lib64/libstatslog.so
+[00:19:31.356] LOG    ========================================
+[00:19:31.357] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.357] LOG    
+[00:19:31.357] LOG    ========================================
+[00:19:31.358] LOG    [MODULE]
+[00:19:31.358] LOG    name : lib-platform-compat-native-api.so
+[00:19:31.358] LOG    base : 0x72ba8ce000
+[00:19:31.359] LOG    size : 36864
+[00:19:31.359] LOG    path : /system/lib64/lib-platform-compat-native-api.so
+[00:19:31.359] LOG    ========================================
+[00:19:31.360] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.360] LOG    
+[00:19:31.361] LOG    ========================================
+[00:19:31.361] LOG    [MODULE]
+[00:19:31.361] LOG    name : libstatssocket.so
+[00:19:31.362] LOG    base : 0x72ba861000
+[00:19:31.362] LOG    size : 102400
+[00:19:31.362] LOG    path : /apex/com.android.os.statsd/lib64/libstatssocket.so
+[00:19:31.363] LOG    ========================================
+[00:19:31.363] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.363] LOG    
+[00:19:31.364] LOG    ========================================
+[00:19:31.364] LOG    [MODULE]
+[00:19:31.364] LOG    name : libstatspull.so
+[00:19:31.365] LOG    base : 0x72ba906000
+[00:19:31.365] LOG    size : 151552
+[00:19:31.366] LOG    path : /apex/com.android.os.statsd/lib64/libstatspull.so
+[00:19:31.366] LOG    ========================================
+[00:19:31.366] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.366] LOG    
+[00:19:31.367] LOG    ========================================
+[00:19:31.367] LOG    [MODULE]
+[00:19:31.368] LOG    name : libnativehelper.so
+[00:19:31.368] LOG    base : 0x72ba7c4000
+[00:19:31.368] LOG    size : 53248
+[00:19:31.368] LOG    path : /apex/com.android.art/lib64/libnativehelper.so
+[00:19:31.369] LOG    ========================================
+[00:19:31.369] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.370] LOG    
+[00:19:31.370] LOG    ========================================
+[00:19:31.370] LOG    [MODULE]
+[00:19:31.371] LOG    name : libart.so
+[00:19:31.371] LOG    base : 0x72b6800000
+[00:19:31.371] LOG    size : 14815232
+[00:19:31.372] LOG    path : /apex/com.android.art/lib64/libart.so
+[00:19:31.372] LOG    ========================================
+[00:19:31.373] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.373] LOG    
+[00:19:31.373] LOG    ========================================
+[00:19:31.373] LOG    [MODULE]
+[00:19:31.374] LOG    name : libartpalette.so
+[00:19:31.374] LOG    base : 0x72ba699000
+[00:19:31.375] LOG    size : 53248
+[00:19:31.375] LOG    path : /apex/com.android.art/lib64/libartpalette.so
+[00:19:31.375] LOG    ========================================
+[00:19:31.375] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.376] LOG    
+[00:19:31.376] LOG    ========================================
+[00:19:31.377] LOG    [MODULE]
+[00:19:31.377] LOG    name : liblz4.so
+[00:19:31.377] LOG    base : 0x72b77c2000
+[00:19:31.378] LOG    size : 167936
+[00:19:31.378] LOG    path : /apex/com.android.art/lib64/liblz4.so
+[00:19:31.378] LOG    ========================================
+[00:19:31.379] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.379] LOG    
+[00:19:31.380] LOG    ========================================
+[00:19:31.380] LOG    [MODULE]
+[00:19:31.380] LOG    name : libartbase.so
+[00:19:31.380] LOG    base : 0x72ba75c000
+[00:19:31.381] LOG    size : 397312
+[00:19:31.381] LOG    path : /apex/com.android.art/lib64/libartbase.so
+[00:19:31.382] LOG    ========================================
+[00:19:31.382] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.382] LOG    
+[00:19:31.383] LOG    ========================================
+[00:19:31.383] LOG    [MODULE]
+[00:19:31.383] LOG    name : libdexfile.so
+[00:19:31.384] LOG    base : 0x72ba6c9000
+[00:19:31.384] LOG    size : 266240
+[00:19:31.384] LOG    path : /apex/com.android.art/lib64/libdexfile.so
+[00:19:31.385] LOG    ========================================
+[00:19:31.385] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.385] LOG    
+[00:19:31.386] LOG    ========================================
+[00:19:31.386] LOG    [MODULE]
+[00:19:31.387] LOG    name : libprofile.so
+[00:19:31.387] LOG    base : 0x72b7781000
+[00:19:31.387] LOG    size : 184320
+[00:19:31.387] LOG    path : /apex/com.android.art/lib64/libprofile.so
+[00:19:31.388] LOG    ========================================
+[00:19:31.388] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.389] LOG    
+[00:19:31.389] LOG    ========================================
+[00:19:31.389] LOG    [MODULE]
+[00:19:31.390] LOG    name : heapprofd_client_api.so
+[00:19:31.390] LOG    base : 0x72ba665000
+[00:19:31.390] LOG    size : 94208
+[00:19:31.391] LOG    path : /system/lib64/heapprofd_client_api.so
+[00:19:31.391] LOG    ========================================
+[00:19:31.391] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.392] LOG    
+[00:19:31.392] LOG    ========================================
+[00:19:31.392] LOG    [MODULE]
+[00:19:31.393] LOG    name : libartpalette-system.so
+[00:19:31.393] LOG    base : 0x72b775f000
+[00:19:31.394] LOG    size : 40960
+[00:19:31.394] LOG    path : /system/lib64/libartpalette-system.so
+[00:19:31.394] LOG    ========================================
+[00:19:31.395] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.395] LOG    
+[00:19:31.395] LOG    ========================================
+[00:19:31.396] LOG    [MODULE]
+[00:19:31.396] LOG    name : libtombstoned_client.so
+[00:19:31.396] LOG    base : 0x72b771a000
+[00:19:31.397] LOG    size : 32768
+[00:19:31.397] LOG    path : /system/lib64/libtombstoned_client.so
+[00:19:31.397] LOG    ========================================
+[00:19:31.398] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.398] LOG    
+[00:19:31.398] LOG    ========================================
+[00:19:31.399] LOG    [MODULE]
+[00:19:31.399] LOG    name : boot.oat
+[00:19:31.400] LOG    base : 0x71340000
+[00:19:31.400] LOG    size : 19222528
+[00:19:31.400] LOG    path : /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat
+[00:19:31.401] LOG    ========================================
+[00:19:31.401] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.401] LOG    
+[00:19:31.402] LOG    ========================================
+[00:19:31.402] LOG    [MODULE]
+[00:19:31.403] LOG    name : boot-framework-adservices.oat
+[00:19:31.403] LOG    base : 0x726b8000
+[00:19:31.403] LOG    size : 233472
+[00:19:31.403] LOG    path : /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot-framework-adservices.oat
+[00:19:31.404] LOG    ========================================
+[00:19:31.404] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.405] LOG    
+[00:19:31.405] LOG    ========================================
+[00:19:31.405] LOG    [MODULE]
+[00:19:31.406] LOG    name : libadbconnection.so
+[00:19:31.406] LOG    base : 0x72ad309000
+[00:19:31.406] LOG    size : 118784
+[00:19:31.407] LOG    path : /apex/com.android.art/lib64/libadbconnection.so
+[00:19:31.407] LOG    ========================================
+[00:19:31.407] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.408] LOG    
+[00:19:31.408] LOG    ========================================
+[00:19:31.408] LOG    [MODULE]
+[00:19:31.409] LOG    name : libadbconnection_client.so
+[00:19:31.409] LOG    base : 0x72ad342000
+[00:19:31.410] LOG    size : 503808
+[00:19:31.410] LOG    path : /apex/com.android.adbd/lib64/libadbconnection_client.so
+[00:19:31.410] LOG    ========================================
+[00:19:31.411] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.411] LOG    
+[00:19:31.411] LOG    ========================================
+[00:19:31.412] LOG    [MODULE]
+[00:19:31.412] LOG    name : libprocessgroup.so
+[00:19:31.412] LOG    base : 0x72ad289000
+[00:19:31.413] LOG    size : 380928
+[00:19:31.413] LOG    path : /apex/com.android.adbd/lib64/libprocessgroup.so
+[00:19:31.414] LOG    ========================================
+[00:19:31.414] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.414] LOG    
+[00:19:31.414] LOG    ========================================
+[00:19:31.415] LOG    [MODULE]
+[00:19:31.415] LOG    name : libbase.so
+[00:19:31.416] LOG    base : 0x72ad3c0000
+[00:19:31.416] LOG    size : 217088
+[00:19:31.416] LOG    path : /apex/com.android.adbd/lib64/libbase.so
+[00:19:31.417] LOG    ========================================
+[00:19:31.417] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.417] LOG    
+[00:19:31.418] LOG    ========================================
+[00:19:31.418] LOG    [MODULE]
+[00:19:31.419] LOG    name : libc++.so
+[00:19:31.419] LOG    base : 0x72ad64a000
+[00:19:31.419] LOG    size : 1224704
+[00:19:31.420] LOG    path : /apex/com.android.adbd/lib64/libc++.so
+[00:19:31.420] LOG    ========================================
+[00:19:31.421] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.421] LOG    
+[00:19:31.421] LOG    ========================================
+[00:19:31.421] LOG    [MODULE]
+[00:19:31.422] LOG    name : libperfetto_hprof.so
+[00:19:31.422] LOG    base : 0x72abb1c000
+[00:19:31.423] LOG    size : 614400
+[00:19:31.423] LOG    path : /apex/com.android.art/lib64/libperfetto_hprof.so
+[00:19:31.423] LOG    ========================================
+[00:19:31.424] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.424] LOG    
+[00:19:31.424] LOG    ========================================
+[00:19:31.425] LOG    [MODULE]
+[00:19:31.425] LOG    name : libandroid.so
+[00:19:31.425] LOG    base : 0x72ad241000
+[00:19:31.426] LOG    size : 184320
+[00:19:31.426] LOG    path : /system/lib64/libandroid.so
+[00:19:31.426] LOG    ========================================
+[00:19:31.427] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.427] LOG    
+[00:19:31.428] LOG    ========================================
+[00:19:31.428] LOG    [MODULE]
+[00:19:31.428] LOG    name : libxml2.so
+[00:19:31.429] LOG    base : 0x72a9224000
+[00:19:31.429] LOG    size : 1290240
+[00:19:31.429] LOG    path : /system/lib64/libxml2.so
+[00:19:31.430] LOG    ========================================
+[00:19:31.430] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.430] LOG    
+[00:19:31.431] LOG    ========================================
+[00:19:31.431] LOG    [MODULE]
+[00:19:31.432] LOG    name : libaaudio.so
+[00:19:31.432] LOG    base : 0x72a93f0000
+[00:19:31.432] LOG    size : 36864
+[00:19:31.433] LOG    path : /system/lib64/libaaudio.so
+[00:19:31.433] LOG    ========================================
+[00:19:31.434] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.434] LOG    
+[00:19:31.434] LOG    ========================================
+[00:19:31.435] LOG    [MODULE]
+[00:19:31.435] LOG    name : libaaudio_internal.so
+[00:19:31.435] LOG    base : 0x72aba94000
+[00:19:31.436] LOG    size : 397312
+[00:19:31.436] LOG    path : /system/lib64/libaaudio_internal.so
+[00:19:31.436] LOG    ========================================
+[00:19:31.437] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.437] LOG    
+[00:19:31.438] LOG    ========================================
+[00:19:31.438] LOG    [MODULE]
+[00:19:31.439] LOG    name : aaudio-aidl-cpp.so
+[00:19:31.439] LOG    base : 0x72aba58000
+[00:19:31.439] LOG    size : 77824
+[00:19:31.439] LOG    path : /system/lib64/aaudio-aidl-cpp.so
+[00:19:31.440] LOG    ========================================
+[00:19:31.440] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.441] LOG    
+[00:19:31.441] LOG    ========================================
+[00:19:31.442] LOG    [MODULE]
+[00:19:31.442] LOG    name : libamidi.so
+[00:19:31.442] LOG    base : 0x72a93a7000
+[00:19:31.443] LOG    size : 40960
+[00:19:31.443] LOG    path : /system/lib64/libamidi.so
+[00:19:31.443] LOG    ========================================
+[00:19:31.444] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.444] LOG    
+[00:19:31.445] LOG    ========================================
+[00:19:31.445] LOG    [MODULE]
+[00:19:31.445] LOG    name : libcamera2ndk.so
+[00:19:31.446] LOG    base : 0x72a919d000
+[00:19:31.446] LOG    size : 274432
+[00:19:31.447] LOG    path : /system/lib64/libcamera2ndk.so
+[00:19:31.447] LOG    ========================================
+[00:19:31.447] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.448] LOG    
+[00:19:31.448] LOG    ========================================
+[00:19:31.448] LOG    [MODULE]
+[00:19:31.449] LOG    name : libjnigraphics.so
+[00:19:31.449] LOG    base : 0x72a9160000
+[00:19:31.450] LOG    size : 28672
+[00:19:31.450] LOG    path : /system/lib64/libjnigraphics.so
+[00:19:31.450] LOG    ========================================
+[00:19:31.451] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.451] LOG    
+[00:19:31.451] LOG    ========================================
+[00:19:31.452] LOG    [MODULE]
+[00:19:31.452] LOG    name : libOpenMAXAL.so
+[00:19:31.453] LOG    base : 0x72a9124000
+[00:19:31.453] LOG    size : 16384
+[00:19:31.453] LOG    path : /system/lib64/libOpenMAXAL.so
+[00:19:31.454] LOG    ========================================
+[00:19:31.454] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.454] LOG    
+[00:19:31.455] LOG    ========================================
+[00:19:31.455] LOG    [MODULE]
+[00:19:31.456] LOG    name : libOpenSLES.so
+[00:19:31.456] LOG    base : 0x72a90eb000
+[00:19:31.456] LOG    size : 16384
+[00:19:31.457] LOG    path : /system/lib64/libOpenSLES.so
+[00:19:31.457] LOG    ========================================
+[00:19:31.458] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.458] LOG    
+[00:19:31.459] LOG    ========================================
+[00:19:31.459] LOG    [MODULE]
+[00:19:31.459] LOG    name : libRS.so
+[00:19:31.460] LOG    base : 0x72a90a7000
+[00:19:31.460] LOG    size : 86016
+[00:19:31.461] LOG    path : /system/lib64/libRS.so
+[00:19:31.461] LOG    ========================================
+[00:19:31.462] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.462] LOG    
+[00:19:31.462] LOG    ========================================
+[00:19:31.463] LOG    [MODULE]
+[00:19:31.463] LOG    name : android.hardware.renderscript@1.0.so
+[00:19:31.464] LOG    base : 0x72a9034000
+[00:19:31.464] LOG    size : 311296
+[00:19:31.464] LOG    path : /system/lib64/android.hardware.renderscript@1.0.so
+[00:19:31.465] LOG    ========================================
+[00:19:31.465] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.466] LOG    
+[00:19:31.466] LOG    ========================================
+[00:19:31.466] LOG    [MODULE]
+[00:19:31.467] LOG    name : libstdc++.so
+[00:19:31.467] LOG    base : 0x72a8fc9000
+[00:19:31.467] LOG    size : 24576
+[00:19:31.468] LOG    path : /system/lib64/libstdc++.so
+[00:19:31.468] LOG    ========================================
+[00:19:31.469] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.469] LOG    
+[00:19:31.469] LOG    ========================================
+[00:19:31.470] LOG    [MODULE]
+[00:19:31.470] LOG    name : libwebviewchromium_plat_support.so
+[00:19:31.471] LOG    base : 0x72a8f8a000
+[00:19:31.471] LOG    size : 24576
+[00:19:31.471] LOG    path : /system/lib64/libwebviewchromium_plat_support.so
+[00:19:31.472] LOG    ========================================
+[00:19:31.472] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.472] LOG    
+[00:19:31.473] LOG    ========================================
+[00:19:31.473] LOG    [MODULE]
+[00:19:31.474] LOG    name : libicu_jni.so
+[00:19:31.474] LOG    base : 0x72a8f5d000
+[00:19:31.475] LOG    size : 81920
+[00:19:31.475] LOG    path : /apex/com.android.i18n/lib64/libicu_jni.so
+[00:19:31.475] LOG    ========================================
+[00:19:31.475] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.476] LOG    
+[00:19:31.476] LOG    ========================================
+[00:19:31.477] LOG    [MODULE]
+[00:19:31.477] LOG    name : libjavacore.so
+[00:19:31.478] LOG    base : 0x72a7580000
+[00:19:31.478] LOG    size : 253952
+[00:19:31.478] LOG    path : /apex/com.android.art/lib64/libjavacore.so
+[00:19:31.478] LOG    ========================================
+[00:19:31.479] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.479] LOG    
+[00:19:31.480] LOG    ========================================
+[00:19:31.480] LOG    [MODULE]
+[00:19:31.481] LOG    name : libandroidio.so
+[00:19:31.481] LOG    base : 0x72a755d000
+[00:19:31.481] LOG    size : 53248
+[00:19:31.482] LOG    path : /apex/com.android.art/lib64/libandroidio.so
+[00:19:31.482] LOG    ========================================
+[00:19:31.482] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.483] LOG    
+[00:19:31.483] LOG    ========================================
+[00:19:31.484] LOG    [MODULE]
+[00:19:31.484] LOG    name : libexpat.so
+[00:19:31.484] LOG    base : 0x72a75d3000
+[00:19:31.485] LOG    size : 184320
+[00:19:31.485] LOG    path : /apex/com.android.art/lib64/libexpat.so
+[00:19:31.486] LOG    ========================================
+[00:19:31.486] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.486] LOG    
+[00:19:31.487] LOG    ========================================
+[00:19:31.487] LOG    [MODULE]
+[00:19:31.488] LOG    name : libopenjdk.so
+[00:19:31.488] LOG    base : 0x72a74e2000
+[00:19:31.489] LOG    size : 270336
+[00:19:31.489] LOG    path : /apex/com.android.art/lib64/libopenjdk.so
+[00:19:31.489] LOG    ========================================
+[00:19:31.490] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.490] LOG    
+[00:19:31.491] LOG    ========================================
+[00:19:31.491] LOG    [MODULE]
+[00:19:31.491] LOG    name : libopenjdkjvm.so
+[00:19:31.492] LOG    base : 0x72a748a000
+[00:19:31.492] LOG    size : 53248
+[00:19:31.493] LOG    path : /apex/com.android.art/lib64/libopenjdkjvm.so
+[00:19:31.493] LOG    ========================================
+[00:19:31.494] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.494] LOG    
+[00:19:31.494] LOG    ========================================
+[00:19:31.495] LOG    [MODULE]
+[00:19:31.495] LOG    name : libonetrace_jni.so
+[00:19:31.496] LOG    base : 0x729dc9c000
+[00:19:31.496] LOG    size : 36864
+[00:19:31.496] LOG    path : /system_ext/lib64/libonetrace_jni.so
+[00:19:31.497] LOG    ========================================
+[00:19:31.497] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.498] LOG    
+[00:19:31.498] LOG    ========================================
+[00:19:31.499] LOG    [MODULE]
+[00:19:31.499] LOG    name : libstats_jni.so
+[00:19:31.499] LOG    base : 0x729dc42000
+[00:19:31.499] LOG    size : 36864
+[00:19:31.500] LOG    path : /apex/com.android.os.statsd/lib64/libstats_jni.so
+[00:19:31.500] LOG    ========================================
+[00:19:31.501] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.501] LOG    
+[00:19:31.502] LOG    ========================================
+[00:19:31.502] LOG    [MODULE]
+[00:19:31.502] LOG    name : libphoenix_jni.so
+[00:19:31.503] LOG    base : 0x729dc23000
+[00:19:31.503] LOG    size : 12288
+[00:19:31.503] LOG    path : /system_ext/lib64/libphoenix_jni.so
+[00:19:31.504] LOG    ========================================
+[00:19:31.504] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.505] LOG    
+[00:19:31.505] LOG    ========================================
+[00:19:31.505] LOG    [MODULE]
+[00:19:31.506] LOG    name : libphoenix_native.so
+[00:19:31.506] LOG    base : 0x729dbeb000
+[00:19:31.507] LOG    size : 40960
+[00:19:31.507] LOG    path : /system_ext/lib64/libphoenix_native.so
+[00:19:31.507] LOG    ========================================
+[00:19:31.508] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.508] LOG    
+[00:19:31.508] LOG    ========================================
+[00:19:31.509] LOG    [MODULE]
+[00:19:31.509] LOG    name : libjavacrypto.so
+[00:19:31.510] LOG    base : 0x7299198000
+[00:19:31.510] LOG    size : 274432
+[00:19:31.510] LOG    path : /apex/com.android.conscrypt/lib64/libjavacrypto.so
+[00:19:31.511] LOG    ========================================
+[00:19:31.511] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.512] LOG    
+[00:19:31.512] LOG    ========================================
+[00:19:31.513] LOG    [MODULE]
+[00:19:31.513] LOG    name : libcrypto.so
+[00:19:31.513] LOG    base : 0x7296e1c000
+[00:19:31.514] LOG    size : 1953792
+[00:19:31.514] LOG    path : /apex/com.android.conscrypt/lib64/libcrypto.so
+[00:19:31.515] LOG    ========================================
+[00:19:31.515] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.515] LOG    
+[00:19:31.516] LOG    ========================================
+[00:19:31.516] LOG    [MODULE]
+[00:19:31.516] LOG    name : libssl.so
+[00:19:31.517] LOG    base : 0x7299023000
+[00:19:31.517] LOG    size : 528384
+[00:19:31.518] LOG    path : /apex/com.android.conscrypt/lib64/libssl.so
+[00:19:31.518] LOG    ========================================
+[00:19:31.518] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.519] LOG    
+[00:19:31.519] LOG    ========================================
+[00:19:31.520] LOG    [MODULE]
+[00:19:31.520] LOG    name : libc++.so
+[00:19:31.520] LOG    base : 0x7298ecb000
+[00:19:31.521] LOG    size : 1224704
+[00:19:31.521] LOG    path : /apex/com.android.conscrypt/lib64/libc++.so
+[00:19:31.521] LOG    ========================================
+[00:19:31.522] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.522] LOG    
+[00:19:31.523] LOG    ========================================
+[00:19:31.523] LOG    [MODULE]
+[00:19:31.524] LOG    name : liboplushwui_jni.so
+[00:19:31.524] LOG    base : 0x729c25a000
+[00:19:31.524] LOG    size : 16384
+[00:19:31.525] LOG    path : /system_ext/lib64/liboplushwui_jni.so
+[00:19:31.525] LOG    ========================================
+[00:19:31.526] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.526] LOG    
+[00:19:31.526] LOG    ========================================
+[00:19:31.527] LOG    [MODULE]
+[00:19:31.527] LOG    name : libmedia_jni.so
+[00:19:31.527] LOG    base : 0x7296b0b000
+[00:19:31.528] LOG    size : 638976
+[00:19:31.528] LOG    path : /system/lib64/libmedia_jni.so
+[00:19:31.529] LOG    ========================================
+[00:19:31.529] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.529] LOG    
+[00:19:31.530] LOG    ========================================
+[00:19:31.530] LOG    [MODULE]
+[00:19:31.531] LOG    name : libmediadrmmetrics_consumer.so
+[00:19:31.531] LOG    base : 0x72990e2000
+[00:19:31.532] LOG    size : 28672
+[00:19:31.532] LOG    path : /system/lib64/libmediadrmmetrics_consumer.so
+[00:19:31.532] LOG    ========================================
+[00:19:31.533] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.533] LOG    
+[00:19:31.534] LOG    ========================================
+[00:19:31.534] LOG    [MODULE]
+[00:19:31.534] LOG    name : libmtp.so
+[00:19:31.535] LOG    base : 0x7298e80000
+[00:19:31.535] LOG    size : 262144
+[00:19:31.535] LOG    path : /system/lib64/libmtp.so
+[00:19:31.536] LOG    ========================================
+[00:19:31.536] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.537] LOG    
+[00:19:31.537] LOG    ========================================
+[00:19:31.538] LOG    [MODULE]
+[00:19:31.538] LOG    name : libsonivox.so
+[00:19:31.539] LOG    base : 0x7296a4a000
+[00:19:31.539] LOG    size : 630784
+[00:19:31.539] LOG    path : /system/lib64/libsonivox.so
+[00:19:31.540] LOG    ========================================
+[00:19:31.540] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.541] LOG    
+[00:19:31.541] LOG    ========================================
+[00:19:31.542] LOG    [MODULE]
+[00:19:31.542] LOG    name : libmediadrmmetrics_full.so
+[00:19:31.542] LOG    base : 0x7299141000
+[00:19:31.543] LOG    size : 147456
+[00:19:31.543] LOG    path : /system/lib64/libmediadrmmetrics_full.so
+[00:19:31.543] LOG    ========================================
+[00:19:31.544] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.544] LOG    
+[00:19:31.545] LOG    ========================================
+[00:19:31.545] LOG    [MODULE]
+[00:19:31.545] LOG    name : libasyncio.so
+[00:19:31.546] LOG    base : 0x7299123000
+[00:19:31.546] LOG    size : 12288
+[00:19:31.547] LOG    path : /system/lib64/libasyncio.so
+[00:19:31.547] LOG    ========================================
+[00:19:31.547] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.548] LOG    
+[00:19:31.548] LOG    ========================================
+[00:19:31.549] LOG    [MODULE]
+[00:19:31.549] LOG    name : libprotobuf-cpp-full.so
+[00:19:31.550] LOG    base : 0x7294145000
+[00:19:31.550] LOG    size : 2301952
+[00:19:31.550] LOG    path : /system/lib64/libprotobuf-cpp-full.so
+[00:19:31.551] LOG    ========================================
+[00:19:31.551] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.552] LOG    
+[00:19:31.552] LOG    ========================================
+[00:19:31.552] LOG    [MODULE]
+[00:19:31.553] LOG    name : libsoundpool.so
+[00:19:31.553] LOG    base : 0x7298e61000
+[00:19:31.554] LOG    size : 110592
+[00:19:31.554] LOG    path : /system/lib64/libsoundpool.so
+[00:19:31.555] LOG    ========================================
+[00:19:31.555] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.555] LOG    
+[00:19:31.556] LOG    ========================================
+[00:19:31.556] LOG    [MODULE]
+[00:19:31.556] LOG    name : libaudioeffect_jni.so
+[00:19:31.557] LOG    base : 0x72943d7000
+[00:19:31.557] LOG    size : 65536
+[00:19:31.558] LOG    path : /system/lib64/libaudioeffect_jni.so
+[00:19:31.558] LOG    ========================================
+[00:19:31.558] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.559] LOG    
+[00:19:31.559] LOG    ========================================
+[00:19:31.560] LOG    [MODULE]
+[00:19:31.560] LOG    name : librtp_jni.so
+[00:19:31.560] LOG    base : 0x72940c2000
+[00:19:31.561] LOG    size : 253952
+[00:19:31.561] LOG    path : /system/lib64/librtp_jni.so
+[00:19:31.562] LOG    ========================================
+[00:19:31.562] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.563] LOG    
+[00:19:31.563] LOG    ========================================
+[00:19:31.563] LOG    [MODULE]
+[00:19:31.564] LOG    name : libstagefright_amrnb_common.so
+[00:19:31.564] LOG    base : 0x7294112000
+[00:19:31.565] LOG    size : 86016
+[00:19:31.565] LOG    path : /system/lib64/libstagefright_amrnb_common.so
+[00:19:31.565] LOG    ========================================
+[00:19:31.566] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.566] LOG    
+[00:19:31.567] LOG    ========================================
+[00:19:31.567] LOG    [MODULE]
+[00:19:31.567] LOG    name : librs_jni.so
+[00:19:31.568] LOG    base : 0x72940a5000
+[00:19:31.568] LOG    size : 86016
+[00:19:31.569] LOG    path : /system/lib64/librs_jni.so
+[00:19:31.569] LOG    ========================================
+[00:19:31.570] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.570] LOG    
+[00:19:31.571] LOG    ========================================
+[00:19:31.571] LOG    [MODULE]
+[00:19:31.571] LOG    name : liboplusextzawgyi.so
+[00:19:31.572] LOG    base : 0x7291754000
+[00:19:31.572] LOG    size : 16384
+[00:19:31.573] LOG    path : /system_ext/lib64/liboplusextzawgyi.so
+[00:19:31.573] LOG    ========================================
+[00:19:31.574] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.574] LOG    
+[00:19:31.574] LOG    ========================================
+[00:19:31.575] LOG    [MODULE]
+[00:19:31.575] LOG    name : android.hardware.graphics.mapper@4.0-impl-mediatek.so
+[00:19:31.575] LOG    base : 0x7290e11000
+[00:19:31.576] LOG    size : 151552
+[00:19:31.576] LOG    path : /vendor/lib64/hw/mt6893/android.hardware.graphics.mapper@4.0-impl-mediatek.so
+[00:19:31.577] LOG    ========================================
+[00:19:31.577] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.578] LOG    
+[00:19:31.578] LOG    ========================================
+[00:19:31.578] LOG    [MODULE]
+[00:19:31.579] LOG    name : android.hardware.graphics.common@1.2.so
+[00:19:31.579] LOG    base : 0x729131b000
+[00:19:31.580] LOG    size : 12288
+[00:19:31.580] LOG    path : /apex/com.android.vndk.v31/lib64/android.hardware.graphics.common@1.2.so
+[00:19:31.580] LOG    ========================================
+[00:19:31.581] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.581] LOG    
+[00:19:31.582] LOG    ========================================
+[00:19:31.582] LOG    [MODULE]
+[00:19:31.582] LOG    name : libgralloc_extra.so
+[00:19:31.583] LOG    base : 0x729134a000
+[00:19:31.583] LOG    size : 36864
+[00:19:31.583] LOG    path : /vendor/lib64/libgralloc_extra.so
+[00:19:31.584] LOG    ========================================
+[00:19:31.584] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.585] LOG    
+[00:19:31.585] LOG    ========================================
+[00:19:31.586] LOG    [MODULE]
+[00:19:31.586] LOG    name : libgralloc_metadata.so
+[00:19:31.586] LOG    base : 0x7291670000
+[00:19:31.587] LOG    size : 12288
+[00:19:31.587] LOG    path : /vendor/lib64/libgralloc_metadata.so
+[00:19:31.587] LOG    ========================================
+[00:19:31.588] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.588] LOG    
+[00:19:31.589] LOG    ========================================
+[00:19:31.589] LOG    [MODULE]
+[00:19:31.590] LOG    name : libgralloctypes_mtk.so
+[00:19:31.590] LOG    base : 0x72911ad000
+[00:19:31.590] LOG    size : 24576
+[00:19:31.591] LOG    path : /vendor/lib64/libgralloctypes_mtk.so
+[00:19:31.591] LOG    ========================================
+[00:19:31.592] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.592] LOG    
+[00:19:31.592] LOG    ========================================
+[00:19:31.593] LOG    [MODULE]
+[00:19:31.593] LOG    name : libged.so
+[00:19:31.594] LOG    base : 0x7290fc6000
+[00:19:31.594] LOG    size : 69632
+[00:19:31.594] LOG    path : /vendor/lib64/libged.so
+[00:19:31.595] LOG    ========================================
+[00:19:31.595] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.596] LOG    
+[00:19:31.596] LOG    ========================================
+[00:19:31.596] LOG    [MODULE]
+[00:19:31.597] LOG    name : libgpud.so
+[00:19:31.597] LOG    base : 0x729115c000
+[00:19:31.598] LOG    size : 122880
+[00:19:31.598] LOG    path : /vendor/lib64/libgpud.so
+[00:19:31.599] LOG    ========================================
+[00:19:31.599] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.599] LOG    
+[00:19:31.600] LOG    ========================================
+[00:19:31.600] LOG    [MODULE]
+[00:19:31.601] LOG    name : libutilscallstack.so
+[00:19:31.601] LOG    base : 0x729159f000
+[00:19:31.601] LOG    size : 24576
+[00:19:31.602] LOG    path : /apex/com.android.vndk.v31/lib64/libutilscallstack.so
+[00:19:31.602] LOG    ========================================
+[00:19:31.603] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.604] LOG    
+[00:19:31.604] LOG    ========================================
+[00:19:31.605] LOG    [MODULE]
+[00:19:31.605] LOG    name : libion_mtk.so
+[00:19:31.606] LOG    base : 0x7290d01000
+[00:19:31.606] LOG    size : 16384
+[00:19:31.606] LOG    path : /vendor/lib64/libion_mtk.so
+[00:19:31.607] LOG    ========================================
+[00:19:31.607] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.608] LOG    
+[00:19:31.608] LOG    ========================================
+[00:19:31.608] LOG    [MODULE]
+[00:19:31.609] LOG    name : libhardware.so
+[00:19:31.609] LOG    base : 0x7290f85000
+[00:19:31.610] LOG    size : 12288
+[00:19:31.610] LOG    path : /apex/com.android.vndk.v31/lib64/libhardware.so
+[00:19:31.610] LOG    ========================================
+[00:19:31.611] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.611] LOG    
+[00:19:31.612] LOG    ========================================
+[00:19:31.612] LOG    [MODULE]
+[00:19:31.613] LOG    name : libbase.so
+[00:19:31.613] LOG    base : 0x7291101000
+[00:19:31.614] LOG    size : 241664
+[00:19:31.614] LOG    path : /apex/com.android.vndk.v31/lib64/libbase.so
+[00:19:31.615] LOG    ========================================
+[00:19:31.615] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.615] LOG    
+[00:19:31.616] LOG    ========================================
+[00:19:31.616] LOG    [MODULE]
+[00:19:31.617] LOG    name : libcutils.so
+[00:19:31.617] LOG    base : 0x7291629000
+[00:19:31.617] LOG    size : 73728
+[00:19:31.618] LOG    path : /apex/com.android.vndk.v31/lib64/libcutils.so
+[00:19:31.618] LOG    ========================================
+[00:19:31.619] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.619] LOG    
+[00:19:31.620] LOG    ========================================
+[00:19:31.620] LOG    [MODULE]
+[00:19:31.620] LOG    name : libdmabufheap.so
+[00:19:31.621] LOG    base : 0x72912da000
+[00:19:31.621] LOG    size : 86016
+[00:19:31.622] LOG    path : /apex/com.android.vndk.v31/lib64/libdmabufheap.so
+[00:19:31.622] LOG    ========================================
+[00:19:31.622] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.623] LOG    
+[00:19:31.623] LOG    ========================================
+[00:19:31.624] LOG    [MODULE]
+[00:19:31.624] LOG    name : libion.so
+[00:19:31.625] LOG    base : 0x72912a3000
+[00:19:31.625] LOG    size : 16384
+[00:19:31.625] LOG    path : /apex/com.android.vndk.v31/lib64/libion.so
+[00:19:31.626] LOG    ========================================
+[00:19:31.626] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.627] LOG    
+[00:19:31.627] LOG    ========================================
+[00:19:31.627] LOG    [MODULE]
+[00:19:31.628] LOG    name : libutils.so
+[00:19:31.628] LOG    base : 0x7291255000
+[00:19:31.629] LOG    size : 110592
+[00:19:31.629] LOG    path : /apex/com.android.vndk.v31/lib64/libutils.so
+[00:19:31.629] LOG    ========================================
+[00:19:31.630] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.630] LOG    
+[00:19:31.631] LOG    ========================================
+[00:19:31.631] LOG    [MODULE]
+[00:19:31.632] LOG    name : libhidlbase.so
+[00:19:31.632] LOG    base : 0x7290e46000
+[00:19:31.632] LOG    size : 688128
+[00:19:31.633] LOG    path : /apex/com.android.vndk.v31/lib64/libhidlbase.so
+[00:19:31.633] LOG    ========================================
+[00:19:31.634] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.634] LOG    
+[00:19:31.635] LOG    ========================================
+[00:19:31.635] LOG    [MODULE]
+[00:19:31.636] LOG    name : libgralloctypes.so
+[00:19:31.636] LOG    base : 0x7290d98000
+[00:19:31.637] LOG    size : 81920
+[00:19:31.638] LOG    path : /apex/com.android.vndk.v31/lib64/libgralloctypes.so
+[00:19:31.638] LOG    ========================================
+[00:19:31.639] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.640] LOG    
+[00:19:31.641] LOG    ========================================
+[00:19:31.642] LOG    [MODULE]
+[00:19:31.642] LOG    name : libdrm.so
+[00:19:31.643] LOG    base : 0x7291229000
+[00:19:31.643] LOG    size : 86016
+[00:19:31.643] LOG    path : /vendor/lib64/libdrm.so
+[00:19:31.644] LOG    ========================================
+[00:19:31.645] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.645] LOG    
+[00:19:31.645] LOG    ========================================
+[00:19:31.646] LOG    [MODULE]
+[00:19:31.646] LOG    name : arm.graphics-V1-ndk_platform.so
+[00:19:31.647] LOG    base : 0x72913f9000
+[00:19:31.647] LOG    size : 12288
+[00:19:31.647] LOG    path : /vendor/lib64/mt6893/arm.graphics-V1-ndk_platform.so
+[00:19:31.648] LOG    ========================================
+[00:19:31.648] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.649] LOG    
+[00:19:31.649] LOG    ========================================
+[00:19:31.650] LOG    [MODULE]
+[00:19:31.650] LOG    name : android.hardware.graphics.mapper@4.0.so
+[00:19:31.650] LOG    base : 0x7291412000
+[00:19:31.651] LOG    size : 122880
+[00:19:31.651] LOG    path : /apex/com.android.vndk.v31/lib64/android.hardware.graphics.mapper@4.0.so
+[00:19:31.652] LOG    ========================================
+[00:19:31.652] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.652] LOG    
+[00:19:31.653] LOG    ========================================
+[00:19:31.653] LOG    [MODULE]
+[00:19:31.654] LOG    name : libc++.so
+[00:19:31.654] LOG    base : 0x7291048000
+[00:19:31.655] LOG    size : 712704
+[00:19:31.655] LOG    path : /apex/com.android.vndk.v31/lib64/libc++.so
+[00:19:31.655] LOG    ========================================
+[00:19:31.656] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.656] LOG    
+[00:19:31.657] LOG    ========================================
+[00:19:31.657] LOG    [MODULE]
+[00:19:31.657] LOG    name : android.hardware.graphics.common@1.0.so
+[00:19:31.658] LOG    base : 0x729154c000
+[00:19:31.658] LOG    size : 12288
+[00:19:31.659] LOG    path : /apex/com.android.vndk.v31/lib64/android.hardware.graphics.common@1.0.so
+[00:19:31.659] LOG    ========================================
+[00:19:31.660] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.660] LOG    
+[00:19:31.660] LOG    ========================================
+[00:19:31.661] LOG    [MODULE]
+[00:19:31.661] LOG    name : android.hardware.graphics.common@1.1.so
+[00:19:31.662] LOG    base : 0x7290dfb000
+[00:19:31.662] LOG    size : 12288
+[00:19:31.662] LOG    path : /apex/com.android.vndk.v31/lib64/android.hardware.graphics.common@1.1.so
+[00:19:31.663] LOG    ========================================
+[00:19:31.664] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.664] LOG    
+[00:19:31.664] LOG    ========================================
+[00:19:31.665] LOG    [MODULE]
+[00:19:31.665] LOG    name : android.hardware.graphics.mapper@2.0.so
+[00:19:31.666] LOG    base : 0x7290f69000
+[00:19:31.666] LOG    size : 90112
+[00:19:31.666] LOG    path : /apex/com.android.vndk.v31/lib64/android.hardware.graphics.mapper@2.0.so
+[00:19:31.667] LOG    ========================================
+[00:19:31.667] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.668] LOG    
+[00:19:31.668] LOG    ========================================
+[00:19:31.668] LOG    [MODULE]
+[00:19:31.669] LOG    name : android.hardware.graphics.mapper@2.1.so
+[00:19:31.669] LOG    base : 0x7291024000
+[00:19:31.670] LOG    size : 94208
+[00:19:31.670] LOG    path : /apex/com.android.vndk.v31/lib64/android.hardware.graphics.mapper@2.1.so
+[00:19:31.670] LOG    ========================================
+[00:19:31.671] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.671] LOG    
+[00:19:31.672] LOG    ========================================
+[00:19:31.672] LOG    [MODULE]
+[00:19:31.673] LOG    name : android.hardware.graphics.mapper@3.0.so
+[00:19:31.673] LOG    base : 0x729139b000
+[00:19:31.674] LOG    size : 98304
+[00:19:31.674] LOG    path : /apex/com.android.vndk.v31/lib64/android.hardware.graphics.mapper@3.0.so
+[00:19:31.674] LOG    ========================================
+[00:19:31.675] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.675] LOG    
+[00:19:31.676] LOG    ========================================
+[00:19:31.676] LOG    [MODULE]
+[00:19:31.677] LOG    name : libbacktrace.so
+[00:19:31.677] LOG    base : 0x72915d5000
+[00:19:31.677] LOG    size : 159744
+[00:19:31.678] LOG    path : /apex/com.android.vndk.v31/lib64/libbacktrace.so
+[00:19:31.678] LOG    ========================================
+[00:19:31.679] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.679] LOG    
+[00:19:31.679] LOG    ========================================
+[00:19:31.680] LOG    [MODULE]
+[00:19:31.680] LOG    name : libprocessgroup.so
+[00:19:31.681] LOG    base : 0x72914e4000
+[00:19:31.681] LOG    size : 331776
+[00:19:31.682] LOG    path : /apex/com.android.vndk.v31/lib64/libprocessgroup.so
+[00:19:31.682] LOG    ========================================
+[00:19:31.682] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.683] LOG    
+[00:19:31.683] LOG    ========================================
+[00:19:31.684] LOG    [MODULE]
+[00:19:31.684] LOG    name : libion_ulit.so
+[00:19:31.685] LOG    base : 0x72911e0000
+[00:19:31.685] LOG    size : 12288
+[00:19:31.685] LOG    path : /vendor/lib64/libion_ulit.so
+[00:19:31.686] LOG    ========================================
+[00:19:31.686] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.687] LOG    
+[00:19:31.687] LOG    ========================================
+[00:19:31.687] LOG    [MODULE]
+[00:19:31.688] LOG    name : android.hardware.graphics.common-V2-ndk_platform.so
+[00:19:31.688] LOG    base : 0x7290d41000
+[00:19:31.689] LOG    size : 28672
+[00:19:31.689] LOG    path : /apex/com.android.vndk.v31/lib64/android.hardware.graphics.common-V2-ndk_platform.so
+[00:19:31.690] LOG    ========================================
+[00:19:31.690] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.691] LOG    
+[00:19:31.691] LOG    ========================================
+[00:19:31.691] LOG    [MODULE]
+[00:19:31.692] LOG    name : libunwindstack.so
+[00:19:31.692] LOG    base : 0x72916a1000
+[00:19:31.693] LOG    size : 532480
+[00:19:31.693] LOG    path : /apex/com.android.vndk.v31/lib64/libunwindstack.so
+[00:19:31.694] LOG    ========================================
+[00:19:31.694] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.695] LOG    
+[00:19:31.695] LOG    ========================================
+[00:19:31.695] LOG    [MODULE]
+[00:19:31.696] LOG    name : libladder.so
+[00:19:31.696] LOG    base : 0x729148a000
+[00:19:31.697] LOG    size : 28672
+[00:19:31.697] LOG    path : /vendor/lib64/libladder.so
+[00:19:31.698] LOG    ========================================
+[00:19:31.698] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.698] LOG    
+[00:19:31.699] LOG    ========================================
+[00:19:31.699] LOG    [MODULE]
+[00:19:31.700] LOG    name : android.hardware.common-V2-ndk_platform.so
+[00:19:31.700] LOG    base : 0x7290f3a000
+[00:19:31.701] LOG    size : 20480
+[00:19:31.701] LOG    path : /apex/com.android.vndk.v31/lib64/android.hardware.common-V2-ndk_platform.so
+[00:19:31.702] LOG    ========================================
+[00:19:31.702] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.703] LOG    
+[00:19:31.703] LOG    ========================================
+[00:19:31.703] LOG    [MODULE]
+[00:19:31.704] LOG    name : liblzma.so
+[00:19:31.704] LOG    base : 0x7291451000
+[00:19:31.705] LOG    size : 188416
+[00:19:31.705] LOG    path : /apex/com.android.vndk.v31/lib64/liblzma.so
+[00:19:31.706] LOG    ========================================
+[00:19:31.706] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.707] LOG    
+[00:19:31.707] LOG    ========================================
+[00:19:31.708] LOG    [MODULE]
+[00:19:31.708] LOG    name : libGLES_meow.so
+[00:19:31.709] LOG    base : 0x7290607000
+[00:19:31.709] LOG    size : 1966080
+[00:19:31.710] LOG    path : /vendor/lib64/egl/libGLES_meow.so
+[00:19:31.710] LOG    ========================================
+[00:19:31.710] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.711] LOG    
+[00:19:31.711] LOG    ========================================
+[00:19:31.712] LOG    [MODULE]
+[00:19:31.712] LOG    name : libMEOW_data.so
+[00:19:31.713] LOG    base : 0x7290cde000
+[00:19:31.713] LOG    size : 20480
+[00:19:31.714] LOG    path : /vendor/lib64/egl/libMEOW_data.so
+[00:19:31.714] LOG    ========================================
+[00:19:31.714] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.715] LOG    
+[00:19:31.715] LOG    ========================================
+[00:19:31.716] LOG    [MODULE]
+[00:19:31.716] LOG    name : libGLES_mali.so
+[00:19:31.717] LOG    base : 0x7287cc4000
+[00:19:31.717] LOG    size : 38273024
+[00:19:31.718] LOG    path : /vendor/lib64/egl/mt6893/libGLES_mali.so
+[00:19:31.718] LOG    ========================================
+[00:19:31.719] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.719] LOG    
+[00:19:31.720] LOG    ========================================
+[00:19:31.720] LOG    [MODULE]
+[00:19:31.721] LOG    name : libgpu_aux.so
+[00:19:31.721] LOG    base : 0x728e1db000
+[00:19:31.721] LOG    size : 118784
+[00:19:31.722] LOG    path : /vendor/lib64/libgpu_aux.so
+[00:19:31.722] LOG    ========================================
+[00:19:31.723] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.723] LOG    
+[00:19:31.724] LOG    ========================================
+[00:19:31.724] LOG    [MODULE]
+[00:19:31.725] LOG    name : libz.so
+[00:19:31.725] LOG    base : 0x728de62000
+[00:19:31.725] LOG    size : 102400
+[00:19:31.726] LOG    path : /apex/com.android.vndk.v31/lib64/libz.so
+[00:19:31.726] LOG    ========================================
+[00:19:31.727] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.727] LOG    
+[00:19:31.728] LOG    ========================================
+[00:19:31.728] LOG    [MODULE]
+[00:19:31.729] LOG    name : libdpframework.so
+[00:19:31.729] LOG    base : 0x728ded9000
+[00:19:31.730] LOG    size : 2314240
+[00:19:31.730] LOG    path : /vendor/lib64/mt6893/libdpframework.so
+[00:19:31.731] LOG    ========================================
+[00:19:31.731] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.732] LOG    
+[00:19:31.732] LOG    ========================================
+[00:19:31.732] LOG    [MODULE]
+[00:19:31.733] LOG    name : vendor.mediatek.hardware.mms@1.5.so
+[00:19:31.733] LOG    base : 0x728dda2000
+[00:19:31.734] LOG    size : 110592
+[00:19:31.734] LOG    path : /vendor/lib64/vendor.mediatek.hardware.mms@1.5.so
+[00:19:31.735] LOG    ========================================
+[00:19:31.735] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.736] LOG    
+[00:19:31.736] LOG    ========================================
+[00:19:31.736] LOG    [MODULE]
+[00:19:31.737] LOG    name : libaiselector.so
+[00:19:31.737] LOG    base : 0x728e17a000
+[00:19:31.738] LOG    size : 24576
+[00:19:31.738] LOG    path : /vendor/lib64/mt6893/libaiselector.so
+[00:19:31.739] LOG    ========================================
+[00:19:31.739] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.740] LOG    
+[00:19:31.740] LOG    ========================================
+[00:19:31.741] LOG    [MODULE]
+[00:19:31.741] LOG    name : vendor.mediatek.hardware.mmagent@1.0.so
+[00:19:31.742] LOG    base : 0x728e195000
+[00:19:31.742] LOG    size : 122880
+[00:19:31.743] LOG    path : /vendor/lib64/vendor.mediatek.hardware.mmagent@1.0.so
+[00:19:31.743] LOG    ========================================
+[00:19:31.743] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.744] LOG    
+[00:19:31.744] LOG    ========================================
+[00:19:31.745] LOG    [MODULE]
+[00:19:31.745] LOG    name : libhidlmemory.so
+[00:19:31.746] LOG    base : 0x728ddcd000
+[00:19:31.746] LOG    size : 28672
+[00:19:31.747] LOG    path : /apex/com.android.vndk.v31/lib64/libhidlmemory.so
+[00:19:31.747] LOG    ========================================
+[00:19:31.747] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.748] LOG    
+[00:19:31.748] LOG    ========================================
+[00:19:31.749] LOG    [MODULE]
+[00:19:31.749] LOG    name : vendor.mediatek.hardware.pq@2.0.so
+[00:19:31.750] LOG    base : 0x728de83000
+[00:19:31.750] LOG    size : 200704
+[00:19:31.751] LOG    path : /vendor/lib64/vendor.mediatek.hardware.pq@2.0.so
+[00:19:31.751] LOG    ========================================
+[00:19:31.752] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.752] LOG    
+[00:19:31.753] LOG    ========================================
+[00:19:31.753] LOG    [MODULE]
+[00:19:31.754] LOG    name : libpq_prot.so
+[00:19:31.754] LOG    base : 0x7290487000
+[00:19:31.754] LOG    size : 1277952
+[00:19:31.755] LOG    path : /vendor/lib64/mt6893/libpq_prot.so
+[00:19:31.755] LOG    ========================================
+[00:19:31.756] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.756] LOG    
+[00:19:31.757] LOG    ========================================
+[00:19:31.757] LOG    [MODULE]
+[00:19:31.758] LOG    name : vendor.mediatek.hardware.mms@1.0.so
+[00:19:31.758] LOG    base : 0x7290c8f000
+[00:19:31.758] LOG    size : 94208
+[00:19:31.759] LOG    path : /vendor/lib64/vendor.mediatek.hardware.mms@1.0.so
+[00:19:31.759] LOG    ========================================
+[00:19:31.760] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.761] LOG    
+[00:19:31.761] LOG    ========================================
+[00:19:31.761] LOG    [MODULE]
+[00:19:31.762] LOG    name : vendor.mediatek.hardware.mms@1.1.so
+[00:19:31.762] LOG    base : 0x72905e6000
+[00:19:31.763] LOG    size : 86016
+[00:19:31.763] LOG    path : /vendor/lib64/vendor.mediatek.hardware.mms@1.1.so
+[00:19:31.764] LOG    ========================================
+[00:19:31.764] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.765] LOG    
+[00:19:31.765] LOG    ========================================
+[00:19:31.766] LOG    [MODULE]
+[00:19:31.766] LOG    name : vendor.mediatek.hardware.mms@1.2.so
+[00:19:31.766] LOG    base : 0x7290c5e000
+[00:19:31.767] LOG    size : 90112
+[00:19:31.767] LOG    path : /vendor/lib64/vendor.mediatek.hardware.mms@1.2.so
+[00:19:31.768] LOG    ========================================
+[00:19:31.768] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.769] LOG    
+[00:19:31.769] LOG    ========================================
+[00:19:31.770] LOG    [MODULE]
+[00:19:31.770] LOG    name : vendor.mediatek.hardware.mms@1.3.so
+[00:19:31.771] LOG    base : 0x728dd56000
+[00:19:31.771] LOG    size : 98304
+[00:19:31.772] LOG    path : /vendor/lib64/vendor.mediatek.hardware.mms@1.3.so
+[00:19:31.772] LOG    ========================================
+[00:19:31.772] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.773] LOG    
+[00:19:31.774] LOG    ========================================
+[00:19:31.774] LOG    [MODULE]
+[00:19:31.774] LOG    name : vendor.mediatek.hardware.mms@1.4.so
+[00:19:31.775] LOG    base : 0x7290445000
+[00:19:31.775] LOG    size : 106496
+[00:19:31.776] LOG    path : /vendor/lib64/vendor.mediatek.hardware.mms@1.4.so
+[00:19:31.776] LOG    ========================================
+[00:19:31.777] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.777] LOG    
+[00:19:31.778] LOG    ========================================
+[00:19:31.778] LOG    [MODULE]
+[00:19:31.779] LOG    name : android.hidl.memory@1.0.so
+[00:19:31.779] LOG    base : 0x728de0c000
+[00:19:31.779] LOG    size : 122880
+[00:19:31.780] LOG    path : /apex/com.android.vndk.v31/lib64/android.hidl.memory@1.0.so
+[00:19:31.780] LOG    ========================================
+[00:19:31.781] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.782] LOG    
+[00:19:31.782] LOG    ========================================
+[00:19:31.782] LOG    [MODULE]
+[00:19:31.783] LOG    name : android.hidl.memory.token@1.0.so
+[00:19:31.783] LOG    base : 0x7290423000
+[00:19:31.784] LOG    size : 77824
+[00:19:31.784] LOG    path : /apex/com.android.vndk.v31/lib64/android.hidl.memory.token@1.0.so
+[00:19:31.785] LOG    ========================================
+[00:19:31.785] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.786] LOG    
+[00:19:31.786] LOG    ========================================
+[00:19:31.787] LOG    [MODULE]
+[00:19:31.787] LOG    name : libpq_cust_base.so
+[00:19:31.788] LOG    base : 0x728640d000
+[00:19:31.788] LOG    size : 1658880
+[00:19:31.789] LOG    path : /vendor/lib64/libpq_cust_base.so
+[00:19:31.789] LOG    ========================================
+[00:19:31.789] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.790] LOG    
+[00:19:31.790] LOG    ========================================
+[00:19:31.791] LOG    [MODULE]
+[00:19:31.791] LOG    name : libaal_mtk.so
+[00:19:31.792] LOG    base : 0x728dcf1000
+[00:19:31.792] LOG    size : 290816
+[00:19:31.793] LOG    path : /vendor/lib64/libaal_mtk.so
+[00:19:31.793] LOG    ========================================
+[00:19:31.794] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.794] LOG    
+[00:19:31.795] LOG    ========================================
+[00:19:31.795] LOG    [MODULE]
+[00:19:31.796] LOG    name : libMEOW_qt.so
+[00:19:31.796] LOG    base : 0x728dca8000
+[00:19:31.797] LOG    size : 86016
+[00:19:31.797] LOG    path : /vendor/lib64/egl/libMEOW_qt.so
+[00:19:31.798] LOG    ========================================
+[00:19:31.798] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.799] LOG    
+[00:19:31.799] LOG    ========================================
+[00:19:31.799] LOG    [MODULE]
+[00:19:31.800] LOG    name : libMEOW_gift.so
+[00:19:31.800] LOG    base : 0x728634b000
+[00:19:31.801] LOG    size : 720896
+[00:19:31.801] LOG    path : /vendor/lib64/egl/libMEOW_gift.so
+[00:19:31.802] LOG    ========================================
+[00:19:31.802] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.803] LOG    
+[00:19:31.803] LOG    ========================================
+[00:19:31.804] LOG    [MODULE]
+[00:19:31.804] LOG    name : libFrameRecord.so
+[00:19:31.805] LOG    base : 0x7287c49000
+[00:19:31.805] LOG    size : 409600
+[00:19:31.806] LOG    path : /vendor/lib64/libFrameRecord.so
+[00:19:31.806] LOG    ========================================
+[00:19:31.806] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.807] LOG    
+[00:19:31.807] LOG    ========================================
+[00:19:31.808] LOG    [MODULE]
+[00:19:31.808] LOG    name : libDefaultFpsActor.so
+[00:19:31.809] LOG    base : 0x728dc52000
+[00:19:31.809] LOG    size : 20480
+[00:19:31.810] LOG    path : /vendor/lib64/libDefaultFpsActor.so
+[00:19:31.810] LOG    ========================================
+[00:19:31.810] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.811] LOG    
+[00:19:31.811] LOG    ========================================
+[00:19:31.812] LOG    [MODULE]
+[00:19:31.813] LOG    name : libNoFpsActor.so
+[00:19:31.813] LOG    base : 0x728a1cc000
+[00:19:31.813] LOG    size : 16384
+[00:19:31.814] LOG    path : /vendor/lib64/libNoFpsActor.so
+[00:19:31.814] LOG    ========================================
+[00:19:31.815] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.815] LOG    
+[00:19:31.816] LOG    ========================================
+[00:19:31.816] LOG    [MODULE]
+[00:19:31.817] LOG    name : libcompiler_rt.so
+[00:19:31.817] LOG    base : 0x728a19b000
+[00:19:31.818] LOG    size : 61440
+[00:19:31.818] LOG    path : /system/lib64/libcompiler_rt.so
+[00:19:31.819] LOG    ========================================
+[00:19:31.819] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.820] LOG    
+[00:19:31.820] LOG    ========================================
+[00:19:31.821] LOG    [MODULE]
+[00:19:31.822] LOG    name : libwebviewchromium_loader.so
+[00:19:31.822] LOG    base : 0x728631f000
+[00:19:31.822] LOG    size : 16384
+[00:19:31.823] LOG    path : /system/lib64/libwebviewchromium_loader.so
+[00:19:31.823] LOG    ========================================
+[00:19:31.824] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.825] LOG    
+[00:19:31.825] LOG    ========================================
+[00:19:31.826] LOG    [MODULE]
+[00:19:31.826] LOG    name : libhttpengine.so
+[00:19:31.827] LOG    base : 0x7243007000
+[00:19:31.827] LOG    size : 6221824
+[00:19:31.828] LOG    path : /apex/com.android.tethering/lib64/libhttpengine.so
+[00:19:31.828] LOG    ========================================
+[00:19:31.828] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.829] LOG    
+[00:19:31.830] LOG    ========================================
+[00:19:31.830] LOG    [MODULE]
+[00:19:31.831] LOG    name : libcrypto_httpengine.so
+[00:19:31.831] LOG    base : 0x7242f24000
+[00:19:31.831] LOG    size : 860160
+[00:19:31.832] LOG    path : /apex/com.android.tethering/lib64/libcrypto_httpengine.so
+[00:19:31.832] LOG    ========================================
+[00:19:31.833] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.834] LOG    
+[00:19:31.834] LOG    ========================================
+[00:19:31.834] LOG    [MODULE]
+[00:19:31.835] LOG    name : libframework-connectivity-tiramisu-jni.so
+[00:19:31.835] LOG    base : 0x72a2c5b000
+[00:19:31.836] LOG    size : 36864
+[00:19:31.836] LOG    path : /apex/com.android.tethering/lib64/libframework-connectivity-tiramisu-jni.so
+[00:19:31.837] LOG    ========================================
+[00:19:31.837] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.838] LOG    
+[00:19:31.838] LOG    ========================================
+[00:19:31.839] LOG    [MODULE]
+[00:19:31.839] LOG    name : base.odex
+[00:19:31.840] LOG    base : 0x72a2328000
+[00:19:31.840] LOG    size : 49152
+[00:19:31.841] LOG    path : /data/app/~~BV_Yj2AvV5GuFEn4iSHFDQ==/com.qm4rs.fridabox-VA5ZFHfJUWAQEXpOypzmNQ==/oat/arm64/base.odex
+[00:19:31.841] LOG    ========================================
+[00:19:31.842] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.842] LOG    
+[00:19:31.843] LOG    ========================================
+[00:19:31.843] LOG    [MODULE]
+[00:19:31.844] LOG    name : libframework-connectivity-jni.so
+[00:19:31.844] LOG    base : 0x729dd0e000
+[00:19:31.845] LOG    size : 53248
+[00:19:31.845] LOG    path : /apex/com.android.tethering/lib64/libframework-connectivity-jni.so
+[00:19:31.846] LOG    ========================================
+[00:19:31.846] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.847] LOG    
+[00:19:31.847] LOG    ========================================
+[00:19:31.847] LOG    [MODULE]
+[00:19:31.848] LOG    name : libblackbox.so
+[00:19:31.848] LOG    base : 0x72b211a000
+[00:19:31.849] LOG    size : 380928
+[00:19:31.849] LOG    path : /data/app/~~BV_Yj2AvV5GuFEn4iSHFDQ==/com.qm4rs.fridabox-VA5ZFHfJUWAQEXpOypzmNQ==/lib/arm64/libblackbox.so
+[00:19:31.850] LOG    ========================================
+[00:19:31.850] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.851] LOG    
+[00:19:31.851] LOG    ========================================
+[00:19:31.852] LOG    [MODULE]
+[00:19:31.852] LOG    name : libSchedAssistJni.so
+[00:19:31.853] LOG    base : 0x7235ed9000
+[00:19:31.853] LOG    size : 20480
+[00:19:31.854] LOG    path : /system_ext/lib64/libSchedAssistJni.so
+[00:19:31.854] LOG    ========================================
+[00:19:31.855] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.855] LOG    
+[00:19:31.856] LOG    ========================================
+[00:19:31.856] LOG    [MODULE]
+[00:19:31.857] LOG    name : libSchedAssistExtImpl.so
+[00:19:31.857] LOG    base : 0x7235e87000
+[00:19:31.857] LOG    size : 40960
+[00:19:31.858] LOG    path : /system_ext/lib64/libSchedAssistExtImpl.so
+[00:19:31.858] LOG    ========================================
+[00:19:31.859] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.860] LOG    
+[00:19:31.860] LOG    ========================================
+[00:19:31.860] LOG    [MODULE]
+[00:19:31.861] LOG    name : libdatastore_shared_counter.so
+[00:19:31.861] LOG    base : 0x722ffae000
+[00:19:31.862] LOG    size : 57344
+[00:19:31.862] LOG    path : /data/app/~~gUpIx4D6ADtsByRX3FYoWg==/ai.x.grok-ZYVjk6RuTk0DgPJbN6hatA==/split_config.arm64_v8a.apk!/lib/arm64-v8a/libdatastore_shared_counter.so
+[00:19:31.863] LOG    ========================================
+[00:19:31.863] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.864] LOG    
+[00:19:31.864] LOG    ========================================
+[00:19:31.865] LOG    [MODULE]
+[00:19:31.865] LOG    name : libpowerhalwrap_jni.so
+[00:19:31.866] LOG    base : 0x7218d69000
+[00:19:31.866] LOG    size : 24576
+[00:19:31.867] LOG    path : /system/lib64/libpowerhalwrap_jni.so
+[00:19:31.867] LOG    ========================================
+[00:19:31.868] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.868] LOG    
+[00:19:31.869] LOG    ========================================
+[00:19:31.869] LOG    [MODULE]
+[00:19:31.870] LOG    name : vendor.mediatek.hardware.pq@2.3.so
+[00:19:31.870] LOG    base : 0x7218d03000
+[00:19:31.870] LOG    size : 184320
+[00:19:31.871] LOG    path : /system/lib64/vendor.mediatek.hardware.pq@2.3.so
+[00:19:31.872] LOG    ========================================
+[00:19:31.872] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.873] LOG    
+[00:19:31.873] LOG    ========================================
+[00:19:31.873] LOG    [MODULE]
+[00:19:31.874] LOG    name : vendor.mediatek.hardware.pq@2.0.so
+[00:19:31.874] LOG    base : 0x7218c8c000
+[00:19:31.875] LOG    size : 204800
+[00:19:31.875] LOG    path : /system/lib64/vendor.mediatek.hardware.pq@2.0.so
+[00:19:31.876] LOG    ========================================
+[00:19:31.876] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.877] LOG    
+[00:19:31.877] LOG    ========================================
+[00:19:31.878] LOG    [MODULE]
+[00:19:31.878] LOG    name : vendor.mediatek.hardware.pq@2.1.so
+[00:19:31.879] LOG    base : 0x7218c46000
+[00:19:31.879] LOG    size : 139264
+[00:19:31.880] LOG    path : /system/lib64/vendor.mediatek.hardware.pq@2.1.so
+[00:19:31.880] LOG    ========================================
+[00:19:31.881] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.881] LOG    
+[00:19:31.882] LOG    ========================================
+[00:19:31.882] LOG    [MODULE]
+[00:19:31.883] LOG    name : vendor.mediatek.hardware.pq@2.2.so
+[00:19:31.883] LOG    base : 0x7218cdb000
+[00:19:31.884] LOG    size : 147456
+[00:19:31.884] LOG    path : /system/lib64/vendor.mediatek.hardware.pq@2.2.so
+[00:19:31.885] LOG    ========================================
+[00:19:31.885] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.891] LOG    [+] Module observer enabled
+[00:19:31.918] LOG    
+[00:19:31.918] LOG    ========================================
+[00:19:31.919] LOG    [MODULE]
+[00:19:31.920] LOG    name : libhwuiextimpl.so
+[00:19:31.920] LOG    base : 0x71fb98e000
+[00:19:31.921] LOG    size : 57344
+[00:19:31.921] LOG    path : /system_ext/lib64/libhwuiextimpl.so
+[00:19:31.922] LOG    ========================================
+[00:19:31.922] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:31.923] LOG    
+[00:19:31.923] LOG    ========================================
+[00:19:31.924] LOG    [MODULE]
+[00:19:31.924] LOG    name : vendor.oplus.hardware.performance@1.0.so
+[00:19:31.925] LOG    base : 0x71d8f4e000
+[00:19:31.925] LOG    size : 544768
+[00:19:31.926] LOG    path : /system/lib64/vendor.oplus.hardware.performance@1.0.so
+[00:19:31.926] LOG    ========================================
+[00:19:31.927] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:32.138] LOG    
+[00:19:32.138] LOG    ========================================
+[00:19:32.139] LOG    [MODULE]
+[00:19:32.139] LOG    name : libdisp_dejitter.so
+[00:19:32.140] LOG    base : 0x71fbb28000
+[00:19:32.141] LOG    size : 24576
+[00:19:32.141] LOG    path : /system/lib64/libdisp_dejitter.so
+[00:19:32.142] LOG    ========================================
+[00:19:32.142] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:32.145] LOG    
+[00:19:32.145] LOG    ========================================
+[00:19:32.146] LOG    [MODULE]
+[00:19:32.147] LOG    name : libperfctl.so
+[00:19:32.147] LOG    base : 0x71fa64b000
+[00:19:32.148] LOG    size : 172032
+[00:19:32.149] LOG    path : /system/lib64/libperfctl.so
+[00:19:32.149] LOG    ========================================
+[00:19:32.150] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
+[00:19:33.143] LOG    
+[00:19:33.144] LOG    ========================================
+[00:19:33.146] LOG    [MODULE]
+[00:19:33.147] LOG    name : libcas.so
+[00:19:33.148] LOG    base : 0x71dfa05000
+[00:19:33.151] LOG    size : 1798144
+[00:19:33.151] LOG    path : /data/app/~~gUpIx4D6ADtsByRX3FYoWg==/ai.x.grok-ZYVjk6RuTk0DgPJbN6hatA==/split_config.arm64_v8a.apk!/lib/arm64-v8a/libcas.so
+[00:19:33.152] LOG    ========================================
+[00:19:33.153] LOG    [!] enumerateRanges failed: Error: expected a string specifying memory protection
